@@ -2430,9 +2430,12 @@
                 sebagai superuser yang memiliki kewenangan dalam mengelola
 
 
-                dan  memanajemeni  sistem.  Baris  informasi  pengguna  root
+                dan memanajemeni sistem. Baris informasi pengguna root
 
-                berikut ini mengandung beberapa sintaks yang perlu dipahami.]]></page><page Index="23"><![CDATA[Keamanan Akun Sistem Linux
+                berikut ini mengandung beberapa sintaks yang perlu
+
+
+                dipahami.]]></page><page Index="23"><![CDATA[Keamanan Akun Sistem Linux
 
 
 
@@ -2663,14 +2666,16 @@
             diizinkan  untuk  digunakan  login  dalam  sistem  Linux,  sehingga
 
 
-            konfigurasi dalam /etc/passwd adalah /sbin/ nologin. Akun layanan
+            konfigurasi dalam /etc/passwd adalah /sbin/ nologin. Akun
 
-            biasanya memiliki UID tiga digit, yaitu antara 100 dan 999. Jenis akun
+            layanan biasanya memiliki UID tiga digit, yaitu antara 100
+
+            dan 999. Jenis akun ini dapat Anda jumpai dalam layanan
 
 
-            ini  dapat  Anda  jumpai  dalam  layanan  systemd,  GNOME  Display
+            systemd, GNOME Display Manager (GDM), layanan
 
-            Manager (GDM), layanan pencetakan CUPS, dan lainnya.]]></page><page Index="25"><![CDATA[Tahukah kalian jenis-
+            pencetakan CUPS, dan lainnya.]]></page><page Index="25"><![CDATA[Tahukah kalian jenis-
                                 jenis aplikasi firewall
 
 
@@ -3379,9 +3384,9 @@
 
 
 
-               Logging  digunakan  untuk  mencatat  informasi  tentang  paket
+               Logging  digunakan  untuk  mencatat  informasi  tentang
 
-               untuk keperluan analisis atau debugging.
+               paket untuk keperluan analisis atau debugging.
 
 
 
@@ -4407,15 +4412,15 @@
 
                  3) Manajemen status dinamis
 
-                      Dengan  kemampuan  secara  dinamis  mengelola  status  koneksi,
+                      Dengan  kemampuan  secara  dinamis  mengelola
 
 
-                      termasuk  memulai,  mempertahankan,  dan  mengakhiri  sesi,
+                      status koneksi, termasuk memulai, mempertahankan,
 
-                      firewall dapat membedakan antara, lalu lintas yang sah dan tidak
+                      dan  mengakhiri  sesi,  firewall  dapat  membedakan
 
 
-                      sah.]]></page><page Index="37"><![CDATA[4) Tingkat keamanan lebih tinggi
+                      antara, lalu lintas yang sah dan tidak sah.]]></page><page Index="37"><![CDATA[4) Tingkat keamanan lebih tinggi
 
                       Dengan melacak status koneksi, firewall stateful dapat mencegah
 
@@ -4628,9 +4633,9 @@
                       aplikasi,  untuk  meningkatkan  keakuratannya  dalam  memeriksa
 
 
-                      dan mengizinkan atau memblokir lalu lintas berdasarkan konteks
+                      dan mengizinkan atau memblokir lalu lintas berdasarkan --------
 
-                      aplikasi yang sedang berjalan.]]></page><page Index="39"><![CDATA[T
+                      konteks aplikasi yang sedang berjalan.]]></page><page Index="39"><![CDATA[T
                                                   s
                                                     s
                                                            r
@@ -5700,14 +5705,17 @@
         keras, termasuk komputer khusus, Switch Ethernet, Access
 
 
-        Point,  atau  server  akses  jaringan.  Mereka  beroperasi
+        Point, atau server akses jaringan. Mereka ber-
 
 
-        menggunakan  protokol  dan  teknologi  tertentu  yang
+        operasi menggunakan protokol dan teknologi
 
 
 
-        dirancang untuk mengamankanproses autentikasi.]]></page><page Index="47"><![CDATA[d
+        tertentu yang dirancang untuk mengamankan
+
+
+        proses autentikasi.]]></page><page Index="47"><![CDATA[d
                      o
 
                            e
@@ -6416,10 +6424,10 @@
                      Active  Directory  adalah  implementasi  spesifik  dari  direktori  yang
 
 
-                     menggunakan  LDAP  dan  fitur  tambahan  khusus  untuk  ekosistem
+                     menggunakan LDAP dan fitur tambahan khusus untuk -------- -
 
 
-                     Windows.]]></page><page Index="53"><![CDATA[Server RADIUS
+                     ekosistem Windows.]]></page><page Index="53"><![CDATA[Server RADIUS
 
 
 
@@ -6650,14 +6658,14 @@
 
             i. ID Filter match
 
-                Jika  shared  secret  yang  diterima  oleh  klien  sesuai  dengan  sistem,
+                Jika shared secret yang diterima oleh klien sesuai dengan ---- -----
 
-                klien  akan  membaca  nilai  atribut  ID  Filter.  Selanjutnya,  klien  RADIUS
+                sistem,  klien  akan  membaca  nilai  atribut  ID  Filter.  -----  ----
 
 
-                menghubungkan  pengguna  ke  grup  RADIUS  tertentu  menggunakan
+                Selanjutnya, klien RADIUS menghubungkan pengguna ke ----- ------
 
-                ID Filter ini.]]></page><page Index="55"><![CDATA[r
+                grup RADIUS tertentu menggunakan ID Filter ini.]]></page><page Index="55"><![CDATA[r
                       a
                                                          R
                                                    e
@@ -6775,39 +6783,39 @@
 
                 menghubungkan  pengguna  ke  grup  RADIUS  tertentu  ----  -----
 
-                menggunakan ID Filter ini.]]></page><page Index="56"><![CDATA[e
-                                       t
+                menggunakan ID Filter ini.]]></page><page Index="56"><![CDATA[t
                                     u
-                                            n
-                                                   k
+                                A
+                                         e
                                                  i
                                                t
-                                A
-                    t
-                                                                                              S
-                                                                                           U
-                      o
+                                            n
 
+                                                                                           U
+                                                                                              S
+                                                                                         I
+                    t
                             e
                          d
-
+                      o
                                                                             r
                                                                          e
-                                                                               R
-                                                                                         I
+                                                                      v
+
                                                                                       D
                                                                                   A
-                                                                      v
-                                                            i
+                                                                               R
+                                                                    r
                                                          s
                                                       a
-
-                                                                    r
+                                                   k
+                                                            i
                                                                  e
                                                               S
 
-             M
+
                  e
+             M
         3. Metode Autentikasi Server RADIUS
         3
           .
@@ -6894,15 +6902,17 @@
 
                  adalah dukungan terhadap beragam metode autentikasi, termasuk
 
-                 kata  sandi,  sertifikat  digital,  token  keamanan,  dan  biometrik.  Selain
+                 kata sandi, sertifikat digital, token keamanan, dan biometrik.
 
-                 itu, EAP bekerja sebagai lapisan autentikasi dalam protokol PPP dan
-
-
-                 memungkinkan  penggunaan  metode  autentikasi  yang  luas  dan
+                 Selain itu, EAP bekerja sebagai lapisan autentikasi dalam -------- --
 
 
-                 mudah diintegrasikan dengan standar lainnya.]]></page><page Index="57"><![CDATA[e. EAP-TLS (EAP-transport layer security)
+                 protokol PPP dan memungkinkan penggunaan metode --- --------
+
+
+                 autentikasi  yang  luas  dan  mudah  diintegrasikan  ------  -----
+
+                 dengan standar lainnya.]]></page><page Index="57"><![CDATA[e. EAP-TLS (EAP-transport layer security)
 
 
 

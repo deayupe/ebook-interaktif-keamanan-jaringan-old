@@ -152,116 +152,129 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>b. Kelemahan Kerberos
+    <pre style="white-space:pre-line"><code>3. Mekanisme Kerja Kerberos
+         3  .   M  e  k  a  n  i s m     e   K  e  r j a    K e  r b  e  r o  s
 
 
 
-                 1) Single point of failure
+               Proses  kerja  Kerberos  melibatkan  beberapa  tahapan  utama
 
 
-                 Jika  KDC  mengalami  kegagalan  atau  diserang,  seluruh  sistem
+               yang  memastikan  bahwa  komunikasi  antara  klien  dan  server
 
-                 autentikasi bisa terpengaruh, menyebabkan gangguan besar dalam
 
+               layanan terjadi secara aman dan terenkripsi, mencegah akses
 
-                 jaringan.
 
 
+               tidak  sah  dan  serangan  replay.  Berikut  adalah  tahapan-
 
 
+               tahapan tersebut.
 
-                 2) Kerumitan pengaturan
 
-                 Mengkonfigurasi  dan  mengelola  Kerberos  merupakan  proses  yang
 
-                 kompleks, terutama dalam jaringan besar atau heterogen.
+              a. Initial Client Authentication Request
 
 
 
+                   1)  Proses  dimulai  ketika  pengguna  melakukan  login  ke  domain
 
 
-                 3) Kebutuhan sinkronisasi waktu
+                   dengan  memasukkan  kredensial  mereka  (nama  pengguna  dan
 
 
-                 Kerberos  mengandalkan  sinkronisasi  waktu  yang  ketat  antara  klien
+                   kata sandi) ke klien Kerberos di perangkat mereka.
 
-                 dan          server.            Ketidaksesuaian                       waktu            yang            signifikan              dapat
 
+                   2) Klien mengirim permintaan ke authentication server (AS) di key
 
-                 menyebabkan kegagalan autentikasi.
 
+                   distribution  center  (KDC)  untuk  mendapatkan  Ticket-Granting
 
-        3. Mekanisme Kerja Kerberos
-        3 .   M  e  k  a  n   i s m    e    K e  r j a    K e  r b  e  r o   s
 
+                   Ticket (TGT).
 
 
-            Proses  kerja  Kerberos  melibatkan  beberapa  tahapan  utama
 
+              b. Verification of Client Credentials
 
-            yang  memastikan  memastikan  bahwa  komunikasi  antara  klien
 
 
-            dan  server  layanan  terjadi  secara  aman  dan  terenkripsi,
+                   1)  KDC  memverifikasi  kredensial  yang  dikirimkan  pengguna.  Jika
 
 
-            mencegah akses tidak sah dan serangan replay.
+                   valid, AS memeriksa ketersediaan TGS dan klien dalam database.
 
-            Berikut adalah tahapan-tahapan tersebut.
 
+                   2)  AS  mengeluarkan  TGT  yang  berisi  berbagai  informasi  seperti
 
 
+                   alamat jaringan, ID, timestamp, lifetime, dan session key (SK1). TGT
 
-            a. Initial Client Authentication Request
 
+                   dienkripsi dengan kunci rahasia TGS.
 
 
-                 1)  Proses  dimulai  ketika  pengguna  melakukan  login  ke  domain
+                   3)  AS  juga  mengeluarkan  encrypted  session  key  yang  dienkripsi
 
-                 dengan memasukkan kredensial mereka (nama pengguna dan kata
 
+                   dengan kunci rahasia pengguna.
 
-                 sandi) ke klien Kerberos di perangkat mereka.
 
-                 2)  Klien  mengirim  permintaan  ke  authentication  server  (AS)  di  key
+              c. Message Decryption
 
 
-                 distribution center (KDC) untuk mendapatkan Ticket-Granting Ticket
 
-                 (TGT).
+                   Klien  menggunakan  client  secret  key  untuk  mendekripsi  TGT  dan
 
 
+                   session key (SK1) agar pesan yang dikirim dari AS  dapat dibaca.
 
-            b. Verification of Client Credentials
 
 
+              d. Request for Access Using the TGT
 
-                 1)  KDC  memverifikasi  kredensial  yang  dikirimkan  pengguna.  Jika
 
 
-                 valid, AS memeriksa ketersediaan TGS dan klien dalam database.
+                   Ketika  pengguna  ingin  mengakses  layanan  tertentu,  klien
 
-                 2)  AS  mengeluarkan  TGT  yang  berisi  berbagai  informasi  seperti
 
+                   mengirimkan  permintaan  tiket  layanan  ke  Ticket-Granting  Service
 
-                 alamat  jaringan,  ID,  timestamp,  lifetime,  dan  session  key  (SK1).  TGT
 
-                 dienkripsi dengan kunci rahasia TGS.
+                   (TGS) dengan menyertakan  TGT dan authenticator.
 
-                 3)  AS  juga  mengeluarkan  encrypted  session  key  yang  dienkripsi
 
 
-                 dengan kunci rahasia pengguna.
+              e. Creation of Ticket for the Service Server
 
 
 
-            c. Message Decryption
+                   1)  TGS  menggunakan  TGS  secret  key  untuk  mendekripsi  TGT  dari
 
 
+                   klien dan mengekstrak SK1. TGS juga mendekripsi authenticator dan
 
-                 Klien  menggunakan  client  secret  key  untuk  mendekripsi  TGT  dan
 
-                 session key (SK1) agar dapat membaca pesan yang diterima dari AS.</code></pre>
+                   memverifikasi kesesuaiannya.
+
+
+                   2)  Jika  valid,  TGS  menghasilkan  shared  service  session  key  (SK2)
+
+
+                   untuk  server  dan  klien.  TGS  membuat  service  ticket  yang  berisi
+
+
+                   informasi seperti alamat jaringan klien, ID, timestamp, dan SK2.
+
+                   3) Service ticket dienkripsi dengan server secret key
+
+
+                   dan dikirimkan ke klien bersama dengan SK2 yang
+
+
+                   dienkripsi dengan SK1.</code></pre>
      	</div>
     
      </div>

@@ -152,130 +152,118 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>r
-                                                            A
-                                                         R
-                                                   e
-                                                                D
-                                                                   I
-                                                v
-             C
-                                    a
-                                  j
-                                        S
+    <pre style="white-space:pre-line"><code>j
+                                   r
+                                       a
+                                           S
 
-                                r
-                a
-                    r
-                             e
-                          K
-        2. Cara Kerja Server RADIUS
-                                           e
-        2
+                                e
+                       r
+                   a
+                         a
+                             K
 
-          .
-                                                                        S
-                                                                    U
-                      a
-                                              r
+                                              e
+                                                                   D
+                                                               A
+                                                                      I
+                                                                           S
+                                                                       U
+                                                            R
+                                                   v
+                                                 r
+                                                      e
 
-            Proses  autentikasi  dan  otorisasi  dengan  server  RADIUS  berlangsung
-            melalui  beberapa  tahapan  yang  melibatkan  komunikasi  antara  klien
-            RADIUS dan server RADIUS. Proses ini bertujuan untuk menjamin bahwa
-            hanya pengguna sah yang terverifikasi dalam proses autentikasi yang
-            dapat  diotorisasi  untuk  mengakses  jaringan  atau  sumber  daya
-            tertentu.
-            Berikut adalah penjelasan langkah demi langkah proses tersebut.
-            a. Self-authentication RADIUS client
-                Pada tahap awal, perangkat klien akan melakukan autentikasi dirinya
-                sendiri  menggunakan  kredensial  seperti  nama  pengguna  dan  kata
-                sandi.
+                                                         r
+
+                C
+             .
+           2. Cara Kerja Server RADIUS
+           2
+               Proses autentikasi dan otorisasi dengan server RADIUS berlangsung
+               melalui  beberapa  tahapan  yang  melibatkan  komunikasi  antara
+               klien RADIUS dan server RADIUS. Proses ini bertujuan untuk menjamin
+               bahwa  hanya  pengguna  sah  yang  terverifikasi  dalam  proses
+               autentikasi  yang  dapat  diotorisasi  untuk  mengakses  jaringan  atau
+               sumber daya tertentu.
+               Berikut adalah penjelasan langkah demi langkah proses tersebut.
+               a. Self-authentication RADIUS client
 
 
-            b. "Access-Request" message
+                   Perangkat  klien  akan  melakukan  autentikasi  dirinya  sendiri
 
-                Selanjutnya,  klien  RADIUS  akan  mengirim  pesan  permintaan  akses
-
-                (Access-Request) ke server RADIUS yang berisi nama pengguna dan
+                   menggunakan kredensial seperti nama pengguna dan kata sandi.
 
 
-                kata sandi.
+
+               b. "Access-Request" message
 
 
-            c. RADIUS server authentication
 
-                Server RADIUS menggunakan informasi dalam permintaan (request)
-
-                tersebut  untuk  mengautentikasi  pengguna  berdasarkan  informasi
+                   Klien  RADIUS  akan  mengirim  pesan  permintaan  akses  (Access-
 
 
-                database eksternal, seperti active directory.
+                   Request) ke server RADIUS yang berisi nama pengguna dan kata
 
 
-            d. Database matching
-
-                Jika  server  RADIUS  menemukan  kecocokan  kredensial  dalam
-
-                database,  sistem  akan  mengambil  informasi  tambahan  pengguna
+                   sandi.
 
 
-                dari database tersebut.
+
+               c. RADIUS server authentication
 
 
-            e. Access policy checks
-                Setelah  kredensial  terkonfirmasi  sesuai  dengan  data,  server  RADIUS
+                   Server  RADIUS  menggunakan  informasi  dalam  permintaan
 
 
-                memeriksa  apakah  ada  kebijakan  akses  atau  profil  yang  cocok
-
-                dengan kredensial pengguna. Jika ditemukan dan mode multi-factor
+                   (request) tersebut untuk mengautentikasi pengguna berdasarkan
 
 
-                authentication (MFA) telah diaktifkan, pengguna akan diminta untuk
-
-                menginputkan OTP yang dikirimkan oleh server.
+                   informasi database eksternal, seperti active directory.
 
 
-            f. Response validation
 
-                Setelah  klien  mengirimkan  nilai  OTP  dari  server,  OTP  tersebut  akan
-
-
-                divalidasi. Jika valid, server mengirim pesan "Access-Accept" kembali
-
-                ke perangkat
+               d. Database matching
 
 
-            g. Rejects message
 
-                Jika OTP yang dikirimkan klien tidak valid, server RADIUS mengirimkan
-
-                notifikasi  berupa  "Access-Reject"  dan  mengakhiri  transaksi,  yang
+                   Jika  server  RADIUS  menemukan  kecocokan  kredensial  dalam
 
 
-                mengakibatkan pengguna ditolak mengakses sistem.
+                   database,                sistem             akan           mengambil                    informasi               tambahan
 
 
-            h. "Access-Accept" message
-
-                Pesan  yang  berisi  informasi  penerimaan  akses  biasanya  memiliki
-
-                atribut ID Filter dan shared secret. Jika klien RADIUS tidak mengenali
+                   pengguna dari database tersebut.
 
 
-                shared secret yang diterimanya, klien akan menolak pesan tersebut.
+
+               e. Access policy checks
 
 
-            i. ID Filter match
 
-                Jika shared secret yang diterima oleh klien sesuai dengan ---- -----
-
-                sistem,  klien  akan  membaca  nilai  atribut  ID  Filter.  -----  ----
+                    Setelah  kredensial  terkonfirmasi  sesuai  dengan  data,  server
 
 
-                Selanjutnya, klien RADIUS menghubungkan pengguna ke ----- ------
+                    RADIUS memeriksa apakah ada kebijakan akses atau profil yang
 
-                grup RADIUS tertentu menggunakan ID Filter ini.</code></pre>
+                    cocok  dengan  kredensial  pengguna.  Jika  ditemukan  dan  mode
+
+
+                    multi-factor authentication(MFA) telah diaktifkan, pengguna akan
+
+
+                    diminta untuk menginputkan OTP yang dikirimkan oleh server.
+
+
+
+                f. Response validation
+
+
+
+                    Server akan memvalidasi OTP yang dikirimkan oleh klien. Jika valid,
+
+
+                    server mengirim pesan "Access-Accept" kembali ke perangkat</code></pre>
      	</div>
     
      </div>

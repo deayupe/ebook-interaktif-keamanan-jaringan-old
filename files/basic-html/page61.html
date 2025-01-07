@@ -152,61 +152,22 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>d. Request for Access Using the TGT
-
-
-
-                 Ketika  pengguna  ingin  mengakses  layanan  tertentu,  -------------
-
-                 klien  mengirimkan  permintaan  tiket  layanan  ke  --------------
-
-
-                 Ticket-Granting  Service  (TGS)  dengan  menyertakan  ------------
-
-                 TGT dan authenticator.
-
-
-            e. Creation of Ticket for the Service Server
-
-
-
-                 1) TGS menggunakan TGS secret key untuk mendekripsi TGT dari klien
-
-                 dan  mengekstrak  SK1.  TGS  juga  mendekripsi  authenticator  dan
-
-
-                 memverifikasi kesesuaiannya.
-
-
-                 2)  Jika  valid,  TGS  menghasilkan  shared  service  session  key  (SK2)
-
-                 untuk  server  dan  klien.  TGS  membuat  service  ticket  yang  berisi
-
-                 informasi seperti alamat jaringan klien, ID, timestamp, dan SK2.
-
-
-                 3) Service ticket dienkripsi dengan server secret key dan dikirimkan
-
-                 ke klien bersama dengan SK2 yang dienkripsi dengan SK1.
-
-
-
-            f. Authentication Using the Service Ticket
+    <pre style="white-space:pre-line"><code>f. Authentication Using the Service Ticket
 
 
 
                  1) Klien menggunakan service ticket untuk mengautentikası ke server
 
-
                  layanan  dengan  mendekripsi  pesan  menggunakan  SK1  dan
+
 
                  mengekstrak SK2.
 
 
                  2) Klien mengirimkan service ticket dan authenticator baru ke server
 
-                 layanan.
 
+                 layanan.
 
 
         4. Potensi Celah Keamanan
@@ -214,48 +175,122 @@ function MM_swapImage() { //v3.0
 
 
 
-            Meski  tergolong  aman,  popularitas  Kerberos  sebagai  protokol
-
-            autentikasi  yang  banyak  digunakan  membuatnya  menjadi
+             Meski  tergolong  aman,  popularitas  Kerberos  sebagai  protokol
 
 
-            target analisis dan eksploitasi oleh penyerang.
+             autentikasi  yang  banyak  digunakan  membuatnya  menjadi
 
 
-            Berikut  adalah  lima  potensi  metode  penyerangan  yang  umum
+             target analisis dan eksploitasi oleh penyerang.
 
 
-            dihadapi oleh Kerberos.
+             Berikut  adalah  lima  potensi  metode  penyerangan  yang  umum
 
 
-
-            a. Man-in-the-Middle (MitM)
-
-                 Jika  tiket  atau  session  key  tercegat  di  tengah  transmisi,  penyerang
-
-
-                 dapat menyamar sebagai klien atau server.
+             dihadapi oleh Kerberos.
 
 
 
+             a. Man-in-the-Middle (MitM)
 
 
-            b. Pass the ticket
-
-                 Penyerang  memalsukan  session  key  dan  menggunakan  kredensial
-
-                 palsu untuk mendapatkan akses.
+                  Jika  tiket  atau  session  key  tercegat  di  tengah  transmisi,  penyerang
 
 
+                  dapat menyamar sebagai klien atau server.
 
 
 
-            C. Credential stuffing atau Brute force
+             b. Pass the ticket
 
-                 Menebak  kata  sandi  pengguna  secara  acak  dan  tanpa  henti,
+                  Penyerang  memalsukan  session  key  dan  menggunakan  kredensial
 
 
-                 menargetkan layanan ticket-granting dan initial ticketing service.</code></pre>
+                  palsu untuk mendapatkan akses.
+
+
+
+             c. Credential stuffing atau Brute force
+
+
+                  Menebak  kata  sandi  pengguna  secara  acak  dan  tanpa  henti,
+
+
+                  menargetkan layanan ticket-granting dan initial ticketing service.
+
+
+             d. Encryption Downgrade
+
+
+                  Penurunan  level  enkripsi  data  tiket  melalui  malware,  misalnya
+
+
+                  skeleton  key,  yang  memungkinkan  menembus  Kerberos  jika
+
+
+                  penyerang mendapatkan akses admin.
+
+
+
+             e. DCShadow Attack
+
+                  DCShadow  attack  memungkinkan  penyerang  menyisipkan  domain
+
+
+                  controller               palsu            dalam              lingkungan                  Active             Directory               dan
+
+
+                  memanipulasi  data  autentikasi  Kerberos  secara  diam-diam.
+
+
+                  sehingga mengganggu validitas proses autentikasi.
+
+
+             Penjelasan  mekanisme  kerja  kerberos  juga  dapat  dilihat  pada
+
+
+             video berikut
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Mekanisme kerja Kerberos
+                                                        M  e  k a n  i s m  e    k e r j a   K e r b e r o s
+
+
+
+
+                                                                                a
+                                                                              j
+                                                                            r
+                                                                                            n
+                                                                                        a
+                                                                                    k
+                                                                        e
+                                                                    Kerjakan
+                                                                    K
+                                                                                       i
+                                                               S
+                                                                                             a
+                                                                                                 n
+                                                                                         h
+                                                               Soal Latihan
+                                                                                     t
+
+                                                                      a
+                                                                          l
+                                                                  o
+                                                                                a
+                                                                              L</code></pre>
      	</div>
     
      </div>

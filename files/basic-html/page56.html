@@ -152,136 +152,148 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>t
-                                    u
-                                A
-                                         e
-                                                 i
-                                               t
-                                            n
+    <pre style="white-space:pre-line"><code>c. MS-CHAP
 
-                                                                                           U
-                                                                                              S
-                                                                                         I
-                    t
-                            e
-                         d
-                      o
-                                                                            r
-                                                                         e
-                                                                      v
 
-                                                                                      D
-                                                                                  A
-                                                                               R
-                                                                    r
-                                                         s
-                                                      a
-                                                   k
+
+                MS-CHAP  adalah  model  keamanan  CHAP  yang  digunakan  untuk
+
+                jaringan  berbasis  Microsoft.  Standar  ini  digunakan  sebagai  opsi
+
+
+                autentikasi  dalam  implementasi  Microsoft  dengan  protokol  PPTP
+
+                (point-to-point  tunneling  protocol)  untuk  VPN.  Dibanding  CHAP
+
+
+                sebelumnya,  standar  keamanan  MS-CHAP  telah  dilengkapi  dengan
+
+                metode  pengubahan  kata  sandi  secara  otomatis  dan  sistem
+
+
+                autentikasi dua arah. Saat ini terdapat dua versi MS-CHAP, yaitu MS-
+
+                CHAPv1 dan MS-CHAPv2.
+
+
+
+           d. EAP (Extensible Authentication Protocol)
+
+
+
+                EAP  merupakan  jenis  framework  yang  digunakan  untuk  autentikasi
+
+                dalam  jaringan  nirkabel  dan  koneksi  point-to-point.  Kelebihan  EAP
+
+
+                adalah dukungan terhadap beragam metode autentikasi, termasuk
+
+                kata sandi, sertifikat digital, token keamanan, dan biometrik.
+
+
+                Selain itu, EAP bekerja sebagai lapisan autentikasi dalam -------- --
+
+                protokol PPP dan memungkinkan penggunaan metode --- --------
+
+
+                autentikasi  yang  luas  dan  mudah  diintegrasikan  ------  -----
+
+                dengan standar lainnya.
+
+
+
+           e. EAP-TLS (EAP-transport layer security)
+
+
+
+                 EAP-TLS merupakan generasi lanjutan dari EAP yang menggunakan
+
+
+                 transport layer security (TLS) sebagai sarana autentikasi yang aman
+
+                 melalui  sertifikat  digital.  Metode  ini  dianggap  sebagai  salah  satu
+
+
+                 prosedur  autentikasi  nirkabel  paling  aman  karena  memanfaatkan
+
+                 enkripsi kuat dan pertukaran kunci yang aman.
+
+
+
+                                                                                          a
+                                                                                        s
+                                                                                      i
+                                                                                              s
+                                                                                                i
+                                                                                                  ,
+                                                                                    r
+                                                                a
+                                                                   s
+                                                          t
+                                                             k
                                                             i
-                                                                 e
-                                                              S
+                                                                      i
+                                                                               t
+                                                                                 o
+                                                                           O
+                                                                       ,
 
+                                                                                                                                     n
+                                                                                                                                        s
+                                                                                                                               t
+                                                                                                                                 a
+                                                                                                                                           i
+                                                                                                                                                 A
+                                                                                                                                                     A
 
-                 e
-             M
-        3. Metode Autentikasi Server RADIUS
-        3
-          .
-            Berikut  adalah  penjelasan  tentang  lima  metode  autentikasi  yang
-            didukung oleh server RADIUS.
-            a. PAP (Password Authentication Protocol)
-                 Metode PAP menggunakan konfigurasi PPP (point-to-point protocol)
-                 dan  basis  data  PAP  untuk  proses  autentikasi.  Cara  kerja  PAP  mirip
-                 dengan  program  login  UNIX,  yang  mengirimkan  nama  pengguna
-                 dan kata sandi dalam bentuk teks biasa ke server untuk autentikasi.
-                 Karena  kata  sandi  dikirim  dalam  teks  biasa,  PAP  dianggap  kurang
-                 aman  dan  biasanya  hanya  digunakan  pada  koneksi  yang  sudah
-                 terenkripsi atau pada koneksi dengan kebutuhan tingkat keamanan
-                 yang tidak terlalu tinggi.
-            b. CHAP (challenge-handshake authentication protocol)
+                                                                                                                                               (
+                                                                                                         a
+                                                                                                            n
 
+                                                                                                      d
 
+                                                                                                                         u
+                                                                                                                            n
+                                                                                                                  A
+                                                                                                                      k
+                                                      n
+                                                                                                                                                        A
+        4.  Kerangka  Autentikasi,  Otorisasi,  dan  Akuntansi  (AAA
+                        a
+                      r
+        4
+                   e
+           .
 
-                 CHAP  terdiri  dari  dua  prinsip  kerja  yaitu  sistem  autentikasi  dan
+                K
+                                              u
+                                           A
+                                                   e
+                                                  t
 
-
-                 respons  hasil  autentikasi.  Autentikator  (server  CHAP)  mengirimkan
-
-                 pertanyaan                   unik         pada             pemanggil                  atau          caller           (pengguna
-
-
-                 autentikasi),  untuk  membuktikan  keabsahan  dirinya.  Pertanyaan
-
-                 tersebut  meliputi  ID  yang  di-generate  oleh  server  maupun  angka
-
-
-                 acak. Caller kemudian menggunakan ID, angka acak, dan kredensial
-
-                 keamanan CHAP untuk menghasilkan respons dan mengirimkannya
-
-                 kembali  ke  server  untuk  verifikasi.  CHAP  telah  memperbaiki
-
-
-                 keamanannya dengan memastikan bahwa kata sandi tidak pernah
-
-                 dikirimkan  melalui  jaringan  dalam  bentuk  teks  biasa  dan  dengan
-
-
-                 men-generate  tantangan  pertanyaan  yang  berubah-ubah  guna
-
-                 mencegah serangan replay.
-
-
-
-            c. MS-CHAP
-
-
-
-                 MS-CHAP  adalah  model  keamanan  CHAP  yang  digunakan  untuk
-
-
-                 jaringan  berbasis  Microsoft.  Standar  ini  digunakan  sebagai  opsi
-
-                 autentikasi  dalam  implementasi  Microsoft  dengan  protokol  PPTP
-
-
-                 (point-to-point  tunneling  protocol)  untuk  VPN.  Dibanding  CHAP
-
-                 sebelumnya,  standar  keamanan  MS-CHAP  telah  dilengkapi  dengan
-
-
-                 metode  pengubahan  kata  sandi  secara  otomatis  dan  sistem
-
-                 autentikasi dua arah. Saat ini terdapat dua versi MS-CHAP, yaitu MS-
-
-
-                 CHAPv1 dan MS-CHAPv2.
-
-
-
-            d. EAP (Extensible Authentication Protocol)
-
-
-
-                 EAP  merupakan  jenis  framework  yang  digunakan  untuk  autentikasi
-
-                 dalam  jaringan  nirkabel  dan  koneksi  point-to-point.  Kelebihan  EAP
-
-
-                 adalah dukungan terhadap beragam metode autentikasi, termasuk
-
-                 kata sandi, sertifikat digital, token keamanan, dan biometrik.
-
-                 Selain itu, EAP bekerja sebagai lapisan autentikasi dalam -------- --
-
-
-                 protokol PPP dan memungkinkan penggunaan metode --- --------
-
-
-                 autentikasi  yang  luas  dan  mudah  diintegrasikan  ------  -----
-
-                 dengan standar lainnya.</code></pre>
+                              g
+                           n
+                                     a
+                                  k
+        Framework)
+        F  r a  m    e  w   o  r k  )
+                Kerangka AAA adalah model penting dalam manajemen keamanan
+                jaringan yang memberikan mekanisme yang kuat untuk mengontrol
+                akses,  mengelola  hak  pengguna,  dan  memantau  aktivitas.  Dengan
+                implementasi yang tepat, AAA dapat secara signifikan meningkatkan
+                keamanan dan kepatuhan dalam lingkungan jaringan.
+                Berikut penjelasan masing-masing komponen AAA.
+           a. Authentication (autentikasi)
+                 Autentikasi  adalah  proses  untuk  memverifikasi  identitas  pengguna
+                 atau  perangkat  yang  mencoba  mengakses  sistem  atau  jaringan.
+                 Proses ini biasanya melibatkan penggunaan kredensial seperti nama
+                 pengguna dan kata sandi, OTP, kartu akses, atau biometrik.
+                1) Proses kerja
+                     a) Pengguna memasukkan kredensial autentikasi.
+                     b) Sistem membandingkan kredensial dengan
+                           data dalam database autentikasi.
+                     c) Jika kredensial valid, akses diberikan; jika tidak,
+                          akses ditolak.</code></pre>
      	</div>
     
      </div>

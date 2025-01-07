@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Search><pages Count="68"><page Index="1"><![CDATA[E-BOOK INTERAKTIF
+<Search><pages Count="67"><page Index="1"><![CDATA[E-BOOK INTERAKTIF
                        E-BOOK INTERAKTIF
 
 
@@ -21,12 +21,108 @@
 
 
 
-                          UNTUK KELAS XI SEMESTER 2
-                           UNTUK KELAS XI SEMESTER 2
-
 
                                                MATERI FIREWALL
-                                               MATERI FIREWALL]]></page><page Index="2"><![CDATA[K      a      t   a        P     e     n      g      a      n      t   a     r
+                                               MATERI FIREWALL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        UNTUK KELAS XI SEMESTER 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                             START NOW]]></page><page Index="2"><![CDATA[K      a      t   a        P     e     n      g      a      n      t   a     r
                                          Kata Pengantar
 
 
@@ -45,71 +141,99 @@
 
                          Puji  syukur  penulis  panjatkan  kehadirat  Allah  SWT,  atas
 
+
                  rahmat  dan  karunia-Nya  sehingga  e-book  interaktif  ini  dapat
+
 
 
                  diselesaikan sebagai bagian dari tugas akhir skripsi. E-book ini
 
+
                  dirancang  khusus  untuk  siswa  kelas  XI  TKJ  di  SMK  Negeri  7
+
 
 
                  Jakarta  sebagai  panduan  pembelajaran  mata  pelajaran
 
+
                  Keamanan Jaringan sesuai dengan Kurikulum Merdeka.
+
 
 
                        Dalam  penyusunan  e-book  interaktif  ini  tidak  lepas  dari
 
+
                  bimbingan                   dan          arahan              dari          berbagai                pihak.           Penulis
+
 
 
                  menyampaikan  rasa  terima  kasih  yang  sebesar-besarnya
 
+
                  kepada Bapak Muhammad Ficky Duskarnaen, S.T., M.Sc dan Ibu
+
+
 
                  Via  Tuhamah  Fauziastuti,  S.SI,  M.Ed  selaku  dosen  pembimbing
 
 
                  yang  telah  memberikan  panduan,  saran,  dan  motivasi  dalam
 
+
+
                  penyelesaian  tugas  ini.  Ucapan  terima  kasih  juga  ditujukan
 
 
                  kepada  seluruh  pihak  yang  telah  berkontribusi  dalam
+
+
 
                  penyusunan  e-book  ini,  baik  secara  langsung  maupun  tidak
 
 
                  langsung.
 
+
+
                          Adapun  tujuan  pembelajaran  meliputi  pemahaman  dasar
 
 
                  mengenai  keamanan  jaringan,  analisis  berbagai  ancaman,
+
+
 
                  penguasaan  konfigurasi  firewall  dan  keamanan  server,  serta
 
 
                  penerapan autentikasi dalam jaringan. Penulis berharap e-book
 
+
+
                  ini  dapat  memberikan  pemahaman  mendalam  dan  menjadi
 
 
                  sarana  pembelajaran  yang  efektif  bagi  peserta  didik  dalam
+
+
 
                  mengembangkan kompetensinya di bidang keamanan jaringan
 
 
                  dan semoga e-book interaktif ini bermanfaat bagi kita semua.
 
+
+
                      Penulis  menyadari  masih  banyak  kekurangan  dalam
+
 
                  penyusunan  e-book    interaktif  ini.  Oleh  karena  itu,  kritik,  saran,
 
 
+
                  dan  masukan  yang  membangun  akan  sangat  membantu
 
-                 penulis di masa mendatang.]]></page><page Index="3"><![CDATA[Tentang E-BOOK
+
+                 penulis di masa mendatang.]]></page><page Index="3"><![CDATA[TENTANG E-BOOK
 
 
 
@@ -126,64 +250,58 @@
 
 
 
+              E-book                       Interaktif                       ini           merupakan                                media
 
 
 
-                 E-book                      Interaktif                       ini            merupakan                                media
+              pembelajaran yang berisi materi firewall untuk
 
 
 
-                 pembelajaran yang berisi materi firewall untuk
+              menunjang  kegiatan  pembelajaran  SMK  kelas
 
 
 
-                 menunjang  kegiatan  pembelajaran  SMK  kelas
+              XI  TKJ  pada  semester  2.  E-Book  ini  bertujuan
 
 
 
-                 XI  TKJ  pada  semester  2.  E-Book  ini  bertujuan
+              untuk  memberikan  pemahaman  mendalam
 
 
 
-                 untuk  memberikan  pemahaman  mendalam
+              mengenai  pentingnya  keamanan  jaringan
 
 
 
-                 mengenai  pentingnya  keamanan  jaringan
+              yang  merupakan  aspek  krusial  dalam  dunia
 
 
-                 yang  merupakan  aspek  krusial  dalam  dunia
-
-
-
-                 teknologi                             informasi                              modern.                             Dengan
+              teknologi                              informasi                             modern.                             Dengan
 
 
 
-                 meningkatnya                                        ketergantungan                                          terhadap
+              meningkatnya                                         ketergantungan                                          terhadap
 
 
 
-                 teknologi  dan  internet,  ancaman  terhadap
+              teknologi  dan  internet,  ancaman  terhadap
 
 
 
-                 keamanan  jaringan  juga  semakin  kompleks
+              keamanan  jaringan  juga  semakin  kompleks
 
 
 
-                 dan  beragam.  E-book  ini  berisi  jenis-jenis
+              dan  beragam.  E-book  ini  berisi  jenis-jenis
 
 
 
-                 ancaman serta langkah-langkah perlindungan
-
-
-                 melalui teknologi seperti firewall.
+              ancaman serta langkah-langkah perlindungan
 
 
 
-
+              melalui teknologi seperti firewall.
 
 
 
@@ -216,7 +334,6 @@
                                                                             e-book yuk !
 
 
-
                                                                        Klik tombol next]]></page><page Index="4"><![CDATA[MENU E-BOOK
 
 
@@ -229,20 +346,19 @@
 
 
 
-                                            HOME
 
 
 
+                                                HOME
 
-                                             Home                             merupakan
 
 
 
-                                             cover  atau  halaman
+                                                Home  merupakan  cover  atau
 
 
 
-                                             pertama dari E-Book
+                                                halaman pertama dari E-Book
 
 
 
@@ -250,165 +366,162 @@
 
 
 
-                                            TENTANG E-BOOK
 
 
+                                                TENTANG E-BOOK
 
 
-                                            Menu  ini  berisi  informasi  dan
 
 
+                                                Menu  ini  berisi  informasi  dan
 
-                                            menu-menu                                         pada                        E-Book
 
 
+                                                menu-menu                                         pada                        E-Book
 
-                                            keamanan  jaringan  serta  buku
 
 
 
-                                            petunjuk                                tentang                               E-Book
+                                                keamanan  jaringan  serta  buku
 
 
 
-                                            keamanan jaringan
+                                                petunjuk                                tentang                               E-Book
 
 
 
+                                                keamanan jaringan
 
 
 
 
-                                            CP & TP
 
 
 
-                                            Menu                           ini                  berisi                        capaian
 
 
+                                                CP & TP
 
-                                            pembelajaran                                               dan                          tujuan
 
 
 
-                                            pembelajaran                                               pada                           mata
+                                                Menu                         ini                berisi                      capaian
 
 
 
+                                                pembelajaran                                           dan                       tujuan
 
-                                            pelajaran                              keamanan                                   jaringan
 
 
+                                                pembelajaran                                          pada                          mata
 
-                                            semester 2
 
+                                                pelajaran                           keamanan                                jaringan
 
 
 
+                                                semester 2
 
 
 
-                                            MATERI
 
 
 
 
-                                            Menu  ini  berisi  materi  yang
 
 
+                                                MATERI
 
-                                            disertai gambar dan video materi
 
 
 
-                                            dalam                                  E-Book                                 interaktif
+                                                Menu  ini  berisi  materi  yang
 
 
 
-                                            keamanan jaringan
+                                                disertai gambar dan video materi
 
 
 
+                                                dalam                                E-Book                               interaktif
 
 
+                                                keamanan jaringan]]></page><page Index="5"><![CDATA[MENU E-BOOK
 
 
-                                            LKPD
 
 
 
-                                            Menu ini berisi lembar kerja untuk
 
 
 
-                                            praktik peserta didik]]></page><page Index="5"><![CDATA[MENU E-BOOK
 
 
 
+                                                LKPD
 
 
 
 
+                                                Menu ini berisi lembar kerja untuk
 
 
 
+                                                praktik peserta didik
 
-                                              KUIS
 
 
 
 
-                                              Menu  ini  berisi  latihan  soal
 
 
 
-                                              evaluasi tiap babnya berupa soal
 
+                                                KUIS
 
 
-                                              pilihan ganda
 
 
+                                                Menu  ini  berisi  latihan  soal
 
 
 
+                                                evaluasi tiap babnya berupa soal
 
 
-                                              KUESIONER
 
+                                                pilihan ganda
 
 
 
-                                              Menu  ini  berisi  link  kuesioner
 
 
 
-                                              mengenai pembelajaran dengan
 
 
 
-                                              menggunakan  E-Book  interaktif
+                                                KUESIONER
 
 
 
 
-                                              di google form
 
+                                                Menu  ini  berisi  link  kuesioner
 
 
 
+                                                mengenai pembelajaran dengan
 
 
-                                              PENGEMBANG
 
+                                                menggunakan  E-Book  interaktif
 
 
 
-                                              Menu ini berisi profil dan informasi
+                                                di google form
 
 
 
-                                              kontak pengembang aplikasi
 
 
 
@@ -416,40 +529,44 @@
 
 
 
-                                              DAFTAR PUSTAKA
+                                                PENGEMBANG
 
 
 
 
-                                              Menu  ini  berisi  sumber  referensi
 
+                                                Menu ini berisi profil dan informasi
 
 
-                                              dalam                             pembuatan                                        E-Book
 
+                                                kontak pengembang aplikasi
 
 
-                                              interaktif]]></page><page Index="6"><![CDATA[HOME                                                 TENTANG                                                CP & TP
 
 
 
 
 
-                                                                    E-BOOK
 
 
 
+                                                DAFTAR PUSTAKA
 
 
 
 
+                                                Menu  ini  berisi  sumber  referensi
 
 
 
+                                                dalam                           pembuatan                                      E-Book
 
 
 
+                                                interaktif]]></page><page Index="6"><![CDATA[TENTANG
+                  HOME                                                                                                     CP & TP
 
+                                                                     E-BOOK
 
 
 
@@ -473,7 +590,6 @@
 
 
 
-             MATERI                                                   LKPD                                                   KUIS
 
 
 
@@ -495,6 +611,7 @@
 
 
 
+                 MATERI                                                   LKPD                                                  KUIS
 
 
 
@@ -521,10 +638,27 @@
 
 
 
-                                                                                                                           DAFTAR
-        KUESIONER                                            PENGEMBANG
 
-                                                                                                                         PUSTAKA]]></page><page Index="7"><![CDATA[CP & TP
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                         DAFTAR
+
+          KUESIONER                                        PENGEMBANG
+
+                                                                                                                        PUSTAKA]]></page><page Index="7"><![CDATA[CP & TP
+
+
 
 
 
@@ -547,20 +681,28 @@
 
 
 
+
                  Pada                akhir             fase              F,        peserta                  didik              mampu
 
 
+
                  memahami  firewall  pada  host  dan  server,
+
+
 
 
                  memahami kebutuhan persyaratan alat-alat untuk
 
 
 
+
                  membangun  server  firewall,  menganalisis  konsep
 
 
+
                  dan  implementasi  firewall  di  host  dan  server,
+
+
 
 
                  memahami                             fungsi                dan              cara               kerja              server
@@ -572,7 +714,10 @@
 
 
 
+
                       Tujuan Pembelajaran (BAB 1)
+
+
 
 
 
@@ -581,10 +726,13 @@
 
 
 
+
                           dan pentingnya dalam teknologi informasi.
 
 
+
                      2.   Menjelaskan                              jenis-jenis                        ancaman                            dan
+
 
 
 
@@ -595,6 +743,8 @@
                           jaringan.
 
 
+
+
                      3.   Mengidentifikasi  faktor  penyebab  ancaman
 
 
@@ -602,11 +752,24 @@
                           keamanan jaringan.
 
 
+
+
                      4.   Memahami  fungsi  dan  pentingnya  firewall
 
 
 
-                          dalam keamanan jaringan.
+                          dalam keamanan jaringan.]]></page><page Index="8"><![CDATA[CP & TP
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -616,14 +779,21 @@
 
 
 
+
+
+
                        1. Menguasai                           dan               menganalisis                             jenis-jenis
+
 
 
 
                           keamanan  sistem  operasi  dan  firewall  yang
 
 
+
                           dapat  diterapkan  pada  host  atau  server
+
+
 
 
                           berbasis Linux.
@@ -633,18 +803,9 @@
                      2.   Mengkonfigurasi  keamanan  server  dengan
 
 
-                          metode server hardening.]]></page><page Index="8"><![CDATA[CP & TP
 
 
-
-
-
-
-
-
-
-
-
+                          metode server hardening.
 
 
 
@@ -655,7 +816,11 @@
 
 
 
+
+
                        1. Menguasai teknik konfigurasi firewall pada
+
+
 
 
                           router.
@@ -669,11 +834,15 @@
                           firewall dan keamanan dalam perangkat
 
 
+
+
                           jaringan berbasis kabel maupun nirkabel.
 
 
 
+
                      3.   Menganalisis teknik serangan dan pencegahan
+
 
 
                           dengan firewall pada perangkat jaringan.
@@ -687,21 +856,28 @@
 
 
 
+
+
                        1. Menguasai konsep, fungsi, dan cara kerja server
+
 
 
 
                           autentikasi.
 
 
+
                      2.   Mengidentifikasi kebutuhan untuk membangun
+
 
 
 
                           server autentikasi yang memadai.
 
 
+
                      3.   Menganalisis dan mengevaluasi proses
+
 
 
 
@@ -731,20 +907,20 @@
 
 
 
-                                                                    BAB 1
 
+                                                                     BAB 1
 
 
 
 
 
 
-                          DASAR-DASAR KEAMANAN
 
+                                                    DASAR-DASAR
 
 
 
-                                                            JARINGAN
+                                     KEAMANAN JARINGAN
 
 
 
@@ -761,20 +937,20 @@
 
 
 
-                                                                      BAB 2
+                                                                    BAB 2
 
 
 
 
 
 
-                              TEKNIK KEAMANAN SISTEM
+                            TEKNIK KEAMANAN SISTEM
 
 
 
 
 
-                         OPERASI LINUX DAN FIREWALL
+                       OPERASI LINUX DAN FIREWALL
 
 
 
@@ -788,22 +964,22 @@
 
 
 
-                                                                   BAB 3
 
+                                                                    BAB 3
 
 
 
 
 
-                        FIREWALL DALAM PERANGKAT
 
 
+                                                FIREWALL DALAM
 
 
 
-                                                              JARINGAN
 
 
+                                    PERANGKAT JARINGAN
 
 
 
@@ -818,15 +994,18 @@
 
 
 
-                                                                     BAB 4
 
 
 
 
+                                                                   BAB 4
 
 
 
-                                          SERVER AUTENTIKASI]]></page><page Index="10"><![CDATA[BAB
+
+
+
+                                        SERVER AUTENTIKASI]]></page><page Index="10"><![CDATA[BAB
 
 
 
@@ -843,21 +1022,26 @@
 
 
 
-                                                                  a
-                                                                         r
-                                                                              -
-                                             D
-                                                    a
-                                                            s
-                                                                                                         a
-                                                                                                                 r
 
-                                                                                    D
-                                                                                            a
-                                                                                                   s
+
+
+
+
+
+
+
+
+
                                              Dasar-Dasar
-                        K       e      a      m          a       n      a      n         Jar               i  n       g      a      n
+                                             D      a       s     a      r    -     D       a      s     a       r
+
+
+
+
+
+
                         Keamanan Jaringan
+                        K       e      a      m          a       n      a      n         Jar               i  n       g      a      n
 
 
 
@@ -881,70 +1065,71 @@
 
 
 
+                 Tujuan Pembelajaran:
 
 
 
 
+                  1.  Memahami  konsep  dasar  keamanan
 
 
-          Tujuan Pembelajaran:
 
 
 
+                      jaringan                            dan                    pentingnya                                    dalam
 
-                1.  Memahami                                    konsep                         dasar                     keamanan
 
 
 
-                    jaringan  dan  pentingnya  dalam  teknologi
 
+                      teknologi informasi.
 
 
 
-                    informasi.
 
 
+                 2.   Menjelaskan  jenis-jenis  ancaman  dan
 
 
-               2.   Menjelaskan                                   jenis-jenis                           ancaman                               dan
 
 
+                      serangan  yang  mengancam  keamanan
 
-                    serangan  yang  mengancam  keamanan
 
 
 
 
-                    jaringan.
+                      jaringan.
 
 
 
-              3.    Mengidentifikasi faktor penyebab ancaman
 
 
+                3.    Mengidentifikasi                                               faktor                         penyebab
 
 
-                    keamanan jaringan.
 
 
 
+                      ancaman keamanan jaringan.
 
-              4.    Memahami  fungsi  dan  pentingnya  firewall
 
 
 
-                    dalam keamanan jaringan.]]></page><page Index="11"><![CDATA[BAB 1
+                4.    Memahami                                   fungsi                     dan                 pentingnya
 
 
 
 
 
+                      firewall dalam keamanan jaringan.]]></page><page Index="11"><![CDATA[DASAR-DASAR
 
-                           DASAR-DASAR KEAMANAN
 
 
 
-                                                             JARINGAN
+
+                                     KEAMANAN JARINGAN
+
 
 
 
@@ -960,33 +1145,34 @@
                                       Apa itu
 
 
-
-                                 keamanan                               K           eamanan jaringan
-
-
-                                   jaringan?                                        merupakan mekanisme
+                                 keamanan                                          eamanan jaringan
 
 
 
-                                                              dari segala potensi serangan
+                                   jaringan?                           K           merupakan mekanisme
 
 
 
 
-                                                mempertahankan sistem dengan
+
+                                                             dari segala potensi serangan
 
 
 
-                                                cara  menutup  celah-celah  yang
+                                               mempertahankan sistem dengan
 
 
 
-                                                dapat                       menyebabkan                                          penyusup
+                                               cara  menutup  celah-celah  yang
 
 
 
-                                                masuk ke sistem.
+                                               dapat                      menyebabkan                                         penyusup
 
+
+
+
+                                               masuk ke sistem.
 
 
 
@@ -1008,67 +1194,67 @@
 
 
 
+         Melindungi Data Sensitif:
 
 
 
 
+         Data pribadi, data
 
-                                                                                                  Mengapa keamanan
 
 
+         perusahaan, atau informasi                                                                  Mengapa keamanan
 
-             Melindungi Data Sensitif:                                                            jaringan sangat
 
 
+         rahasia lainnya.                                                                            jaringan sangat
 
-             Data pribadi, data                                                                   dibutuhkan?
+                                                                                                     dibutuhkan?
 
 
 
-             perusahaan, atau informasi
 
 
+         Mencegah Akses Tidak Sah:
 
-             rahasia lainnya.
 
 
+         Melindungi jaringan dari
 
-             Mencegah Akses Tidak Sah:
 
 
+         pengguna yang tidak
 
-             Melindungi jaringan dari
 
 
 
-             pengguna yang tidak memiliki
+         memiliki otorisasi.
 
 
 
-             otorisasi.
 
 
 
-             Memastikan Ketersediaan
 
 
+        Memastikan Ketersediaan
 
-             Layanan: Menghindari
 
 
+        Layanan: Menghindari
 
-             gangguan seperti serangan
 
 
+        gangguan seperti serangan
 
-             DDoS (Distributed Denial-of-
 
 
 
+        DDoS (Distributed Denial-of-
 
-             Service).]]></page><page Index="12"><![CDATA[Fungsi Utama Keamanan Jaringan
 
 
+        Service).]]></page><page Index="12"><![CDATA[Fungsi Utama Keamanan Jaringan
 
 
 
@@ -1077,27 +1263,28 @@
 
 
 
-                    Deteksi  Ancaman:  Mengidentifikasi  aktivitas
 
 
+                   Deteksi  Ancaman:  Mengidentifikasi  aktivitas
 
-                    mencurigakan.
 
 
-                    Pencegahan Serangan: Mencegah akses ilegal
+                   mencurigakan.
 
 
 
-                    atau kerusakan data.
+                   Pencegahan Serangan: Mencegah akses ilegal
 
 
+                   atau kerusakan data.
 
-                    Pemulihan:                                       Memastikan                                        kemampuan
 
 
+                   Pemulihan:                                       Memastikan                                        kemampuan
 
-                    memulihkan data pasca-insiden.
 
+
+                   memulihkan data pasca-insiden.
 
 
 
@@ -1118,95 +1305,89 @@
 
 
 
-           1. Faktor perangkat keras
+          1. Faktor perangkat keras
+
+
+          Teknologi                          yang                   digunakan                             dalam                      struktur
 
 
 
-           Teknologi                         yang                   digunakan                             dalam                     struktur
+          perangkat                            keras                 terkadang                            masih                    memiliki
 
 
 
-           perangkat                           keras                 terkadang                           masih                    memiliki
+          beberapa kelemahan yang dapat mengakibatkan
 
 
 
-           beberapa kelemahan yang dapat mengakibatkan
+          ketidakmampuan,  performa  rendah,  atau  bahkan
 
 
 
-           ketidakmampuan, performa rendah, atau bahkan
+          kerusakan  pada  perangkat.  Perangkat  keras
 
 
 
-           kerusakan  pada  perangkat.  Perangkat  keras
+          jaringan  sering  kali  bekerja  terus-menerus  dalam
 
 
 
-           jaringan sering kali bekerja terus-menerus dalam
-
-
-           jangka  waktu  yang  lama.  Selain  itu,  fluktuasi
+          jangka  waktu  yang  lama.  Selain  itu,  fluktuasi
 
 
 
-           tegangan Listrik yang tidak stabil atau gangguan
+          tegangan  Listrik  yang  tidak  stabil  atau  gangguan
 
 
 
-           fisik  dari  pengguna  juga  dapat  berdampak
+          fisik  dari  pengguna  juga  dapat  berdampak
 
 
-
-           signifikan.
-
-
-
+          signifikan.
 
 
 
 
-
-           2. Faktor perangkat lunak
-
-
-
-           Gangguan  potensial  dalam  perangkat  lunak
-
-
-           dapat terjadi karena ketidakcocokan antara versi
+          2. Faktor perangkat lunak
 
 
 
-           teknologi  perangkat  lunak  dengan  spesifikasi
+          Gangguan potensial dalam perangkat lunak dapat
 
 
 
-           perangkat  keras  yang  digunakan,  kesalahan
+          terjadi                  karena                      ketidakcocokan                                      antara                    versi
 
 
 
-           dalam  sistem  operasi,  kegagalan  dalan  proses
+          teknologi  perangkat  lunak  dengan  spesifikasi
 
 
 
-           pembaruan, dan infeksi malware.]]></page><page Index="13"><![CDATA[3.  Faktor Manusia/pengguna
+          perangkat  keras  yang  digunakan,  kesalahan
+
+
+
+          dalam  sistem  operasi,  kegagalan  dalan  proses
+
+
+
+          pembaruan, dan infeksi malware.]]></page><page Index="13"><![CDATA[3.  Faktor Manusia/pengguna
 
 
            Faktor  penggunaan  memiliki  potensi  yang  lebih
 
 
 
-           besar daripada aspek lainnya dalam menimbulkan
+           besar                      daripada                             aspek                       lainnya                         dalam
 
 
 
-           ancaman  seperti  hacking,  cracking,  carding,
+           menimbulkan ancaman seperti hacking, cracking,
 
 
 
-           intrusion, pencurian data, dan perusakan.
-
-
+           carding, intrusion, pencurian data, dan perusakan.
 
 
 
@@ -1224,7 +1405,7 @@
 
 
 
-           kelangsungan  sistem  jaringan.  Contohnya  adalah
+           kelangsungan sistem jaringan. Contohnya adalah
 
 
 
@@ -1237,71 +1418,82 @@
 
 
 
-           Jenis-jenis ancaman dan serangan
+
+     Jenis-jenis ancaman dan serangan
 
 
 
-           keamanan jaringan menurut  W.Stallings
+     keamanan jaringan menurut  W.Stallings
 
 
 
-           (2011)
-
-
-
-
-
+     (2011)
 
 
 
 
 
 
-                                                                          R
-                                                            N
-                                                                              U
+
+
+
+
+                                                          I N   T  E  R   R   U   P  T  I O   N
+                                                          INTERRUPTION
+
+
+
+
+                                                              Baca Selengkapnya
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                          C
+                                                                      R
                                                                 T
                                                                    E
-                                                                      R
-                                                                                  P
-                                                          INTERRUPTION
+                                                                              E
                                                                                           O
                                                                                               N
-                                                                                     T
                                                                                         I
+                                                                                 P
+                                                                                     T
+                                                            N
+                                                          INTERCEPTION
                                                           I
                                                               Baca Selengkapnya
 
 
-                                                          I N   T  E  R   C   E  P   T  I O   N
-                                                          INTERCEPTION
 
 
 
-                                                              Baca Selengkapnya
-
-
-
-
-
-
-
-
-
-                                                         M
-                                                                                           O
+                                                         M     O   D   I F  I C   A   T  I O   N
                                                          MODIFICATION
-                                                                                      T
-                                                                                         I
-                                                                                  A
-                                                                   D
-                                                                                               N
-                                                               O
-                                                                       I
-                                                                            I
-                                                                             C
-                                                                         F
+
+
+
+
                                                               Baca Selengkapnya
+
+
+
+
+
+
+
+
+
+
+
 
                                                             FABRICATION
                                                             F  A   B  R   I C   A   T  I O    N
@@ -1309,42 +1501,33 @@
 
 
 
-                                                              Baca Selengkapnya]]></page><page Index="14"><![CDATA[Apa itu                                           irewall adalah sistem
+                                                              Baca Selengkapnya]]></page><page Index="14"><![CDATA[Apa itu                                          Fewall adalah sistem
 
+                                                                                           ir
 
-
-
-                          Firewall?                                F keamanan yang berfungsi
-
-
-                                                                         sebagai perantara sekaligus
-
-
-
-                                                  penghalang antara jaringan internal
-
-
-
-                                                         dan internet, menyaring lalu lintas
-
-
-
-
-                                                        berdasarkan aturan tertentu untuk
-
-
-
-                                                                  mencegah akses tidak sah.
+                                   Firewall?                                keamanan yang berfungsi
 
 
 
 
 
+                                                                     sebagai perantara sekaligus
 
 
 
+                                               penghalang antara jaringan internal
 
-                                                                             Selengkapnya klik link video
+
+
+                                               dan  internet,  menyaring  lalu  lintas
+
+
+
+                                               berdasarkan  aturan  tertentu  untuk
+
+
+
+                                               mencegah akses tidak sah.
 
 
 
@@ -1354,20 +1537,28 @@
 
 
 
+                                                                                      Selengkapnya klik link video
 
 
 
 
 
-                                                                      Mengapa Firewall sangat
 
 
 
-                                                                      penting dalam menjaga
 
 
 
-                                                                      keamanan server jaringan?
+                                                                    Mengapa Firewall sangat
+
+
+
+                                                                    penting dalam menjaga
+
+
+
+
+                                                                    keamanan server jaringan?
 
 
 
@@ -1410,44 +1601,45 @@
 
 
 
+                 Mengawasi dan Mengontrol
 
 
 
-              Mengawasi dan Mengontrol Akses:
+                 Akses: Menentukan lalu lintas
 
 
 
-
-              Menentukan lalu lintas jaringan
-
-
-
-              yang diizinkan atau ditolak.
+                 jaringan yang diizinkan atau
 
 
 
-              Mencegah Ancaman Eksternal:
-
-
-
-              Mengurangi risiko serangan dari
-
-
-
-              jaringan luar.
+                 ditolak.
 
 
 
 
-              Melindungi Server: Menjaga agar
+                 Mencegah Ancaman Eksternal:
 
 
 
-              server tetap aman dari peretas
+                 Mengurangi risiko serangan dari
 
 
 
-              dan malware.]]></page><page Index="15"><![CDATA[Dengan menerapkan Firewall dalam
+                 jaringan luar.
+
+
+
+                 Melindungi Server: Menjaga agar
+
+
+
+
+                 server tetap aman dari peretas
+
+
+
+                 dan malware.]]></page><page Index="15"><![CDATA[Dengan menerapkan Firewall dalam
 
 
 
@@ -1462,8 +1654,8 @@
 
 
 
-
                 1. Menyeleksi  paket  data  yang  ditransmisikan
+
 
 
                    dalam  jaringan  sesuai  dengan  kebijakan
@@ -1493,12 +1685,12 @@
                    dengan kebijakan jaringan.
 
 
-
               3.   Mencegah keluarnya data rahasia dari jaringan
 
 
 
                    internal menuju jaringan eksternal.
+
 
 
               4.   Mengatur dan mencegah akses ilegal terhadap
@@ -1520,12 +1712,12 @@
                    seperti  virus,  spam,  Trojan,  ransomware,  dan
 
 
-
                    advertising  yang  berpotensi  menghabiskan
 
 
 
                    bandwidth serta data jaringan.
+
 
 
               6.   Menjalankan  fungsi  forwarding,  redirect  atau
@@ -1555,12 +1747,12 @@
               9.   Mencatat  dan  menyimpan  semua  aktivitas
 
 
-
                    pengiriman data.
 
 
 
             10.    Mendeteksi,  mengidentifikasi,  dan  memblokir
+
 
 
                    paket  data  berbahaya  seperti  DoS,  SQL
@@ -1765,12 +1957,12 @@
 
       data yang dikirimkan baik dari jaringan                                       monitoring data, forwarding dan filtrasi data
 
-    internal maupun dari eksternal. Incoming                                          dari jaringan internal ke jaringan eksternal
 
+    internal maupun dari eksternal. Incoming                                          dari jaringan internal ke jaringan eksternal
        packet data dari jaringan eksternal ke                                      network atau sebaliknya. Antarmuka jaringan
 
-        internal akan diurus oleh server proxy                                      tersebut biasanya tidak dikonfigurasi alamat
 
+        internal akan diurus oleh server proxy                                      tersebut biasanya tidak dikonfigurasi alamat
 
           yang sudah diintegrasikan dengan                                            IP-nya. Namun pada infrastruktur jaringan
 
@@ -1784,9 +1976,6 @@
                                                                                         pengaturan Firewall ini cukup rumit dan
 
                                                                                     terkadang menyebabkan data sering crash.
-
-
-
 
 
 
@@ -1829,8 +2018,14 @@
 
 
 
+
+
+
+
+
                               T      e     k      n      i  k        K       e      a      m          a       n      a      n
                               Teknik Keamanan
+
 
 
 
@@ -1872,46 +2067,45 @@
                                                                                       e
                                                                         F
                                                                               i
-          Tujuan Pembelajaran:
-
-
-
-
-                1.  Menguasai  dan  menganalisis  jenis-jenis
-
-
-
-                    keamanan sistem operasi dan firewall yang
-
-
-
-
-                    dapat  diterapkan  pada  host  atau  server
-
-
-
-
-                    berbasis Linux.
-
-
-
-               2.   Mengkonfigurasi  keamanan  server  dengan
-
-
-
-
-                    metode server hardening.]]></page><page Index="19"><![CDATA[BAB 2
+                 Tujuan Pembelajaran:
+                  1.  Menguasai  dan  menganalisis  jenis-jenis
 
 
 
 
 
-                                 TEKNIK KEAMANAN SISTEM
+                      keamanan  sistem  operasi  dan  firewall
+
+
+
+
+
+                      yang  dapat  diterapkan  pada  host  atau
+
+
+
+
+
+                      server berbasis Linux.
+
+
+
+
+                2.    Mengkonfigurasi                                              keamanan                                     server
+
+
+
+
+
+                      dengan metode server hardening.]]></page><page Index="19"><![CDATA[TEKNIK KEAMANAN SISTEM
 
 
 
 
                             OPERASI LINUX DAN FIREWALL
+
+
+
 
 
 
@@ -2842,9 +3036,9 @@
 
 
 
-           Baris kode di atas dimaksudkan untuk memblokir semua paket data
+                Baris kode di atas dimaksudkan untuk memblokir semua paket data
 
-           dari IP 10.10.1.10/24 menuju IP 172.16.0.1/25.
+                dari IP 10.10.1.10/24 menuju IP 172.16.0.1/25.
 
 
 
@@ -3729,22 +3923,29 @@
 
 
 
-                                                                           n
 
-                                                                  k
-                                                                       a
-                                                                                          a
-                                                                                              l
-                                                                                 S
-                                                                                     o
-                                                         r
-                                                              a
-                                                            j
-                                                Kerjakan Soal
-                                                K
-                                                     e
-                                                           L  a    t  i h   a    n
-                                                           Latihan]]></page><page Index="33"><![CDATA[BAB
+
+                                                                           r
+                                                                                         a
+                                                                       e
+                                                                              j
+                                                                                a
+                                                                                     k
+                                                                  Kerjakan
+                                                                                             n
+                                                                  K
+                                                                                                   n
+                                                                                              a
+                                                                                          h
+                                                                                        i
+                                                                                     t
+                                                                 o
+                                                                     a
+                                                             Soal Latihan
+                                                             S
+                                                                             L
+                                                                                a
+                                                                          l]]></page><page Index="33"><![CDATA[BAB
 
 
 
@@ -3761,16 +3962,34 @@
 
 
 
-                                        F     i  r   e      w        a       l  l    d       a      l  a       m
+
+
+
+
+
+
+
+
+
+
+                                                                     a
+                                                                             l
+                                                                                l
+                                                 r
+                                                     e
+                                                            w
+
+                                                                                                       a
+                                                                                                               m
+
+                                                                                     d
+                                                                                             a
+                                                                                                    l
                                         Firewall dalam
-
-
-
-
-
-
-                          Perangkat Jaringan
+                                        F
+                                              i
                           P      e      r   a       n      g      k      a      t      Jar               i  n       g      a      n
+                          Perangkat Jaringan
 
 
 
@@ -3787,73 +4006,67 @@
 
 
 
+                 Tujuan Pembelajaran:
 
 
 
+                  1.  Menguasai  teknik  konfigurasi  firewall
 
 
 
 
 
+                      pada router.
 
 
 
 
 
+                 2.   Mengkonfigurasi                                                       dan                              meng-
 
 
 
 
-          Tujuan Pembelajaran:
 
+                      implementasi  firewall  dan  keamanan
 
 
 
-                1.  Menguasai  teknik  konfigurasi  firewall  pada
 
 
+                      dalam  perangkat  jaringan  berbasis
 
-                    router.
 
 
 
+                      kabel maupun nirkabel.
 
-               2.   Mengkonfigurasi  dan  mengimplementasi
 
 
 
 
-                    firewall  dan  keamanan  dalam  perangkat
+                 3.   Menganalisis                                    teknik                    serangan                              dan
 
 
 
-                    jaringan berbasis kabel maupun nirkabel.
 
 
+                      pencegahan                                     dengan                         firewall                     pada
 
 
-              3.    Menganalisis                                        teknik                       serangan                                 dan
 
 
+                      perangkat jaringan.]]></page><page Index="34"><![CDATA[FIREWALL DALAM
 
-                    pencegahan                                        dengan                             firewall                         pada
 
 
 
 
-                    perangkat jaringan.]]></page><page Index="34"><![CDATA[BAB 3
+                                    PERANGKAT JARINGAN
 
 
 
 
-
-                      FIREWALL DALAM PERANGKAT
-
-
-
-
-
-                                                             JARINGAN
 
 
 
@@ -3933,249 +4146,203 @@
 
 
 
-                                                                                        r
-                                                                                          e
-                                                                                                        l
+                                                       Kategori Firewall
+                                                       K   a    t e   g   o   r i   F i r  e   w    a   l l
 
-                                                                                                       l
-                                                                                              w
-                                                                                                   a
-                                                         Kategori Firewall
-                                                                t
-                                                                              r
-                                                                          o
-                                                                      g
-                                                                  e
-                                                                                i
-                                                                                      i
-                                                         K
-                                                                                   F
 
-                                                            a
-                                                          firewall perangkat keras adalah perangkat
-                                                                            e
-                                                          f
-                                                           i
 
-                                                                                                                       h
-                                                                                                                   l
-                                                                                          a
-                                                                                                                                    n
-                                                                                                                    a
-                                                                                        k
-                                                                                                                                r
-                                                                                                                             e
-                                                              e
-                                                                               r
-                                                                                a
-                                                                                                                                 a
-                                                                                                                           p
-                                                                                     g
-                                                                                   n
-                                                            r
-                                                                w
-                                                                                                           a
-                                                                                                              d
-                                                                      l
-                                                                    a
-                                                                                                 e
-                                                                                                        s
-                                                                                                                                         k
-                                                                                                     a
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                  e
+                                                                                                k
                                                                                                     r
-                                                                       l
+                                                             r
+                                                            i
+                                                          Firewall perangkat keras adalah perangkat
+                                                          F
 
-                                                                                                                                              t
-                                                                         p
                                                                                              t
+                                                                       l
+                                                                               r
+                                                                    a
+                                                                            e
 
-                                                                                                                                      g
-                                                                                                                                           a
-                                                                                               k
-                                                                                                                 a
-
-                                                                              t
+                                                                          p
+                                                                        l
+                                                                                        k
+                                                                                          a
+                                                              e
+                                                                 w
+                                                                                a
+                                                                                   n
+                                                                                      g
                                                                                                                                   a
-
-                                                                                                                                     n
-                                                                          d
-                                                                       g
-                                                                             i
-                                                                                                                                        g
-                                                                                                               t
-                                                                                                  n
-                                                                                               a
-                                                                                            t
-                                                                                             k
-
-
-                                                                                                          a
-                                                                                                        i
-                                                                                                     d
-                                                                                                             n
+                                                                                                                    l
                                                                                                                  a
+                                                                                                                                    n
+                                                                                                              d
+                                                                                                                                r
+                                                                                                                           p
+                                                                                                                              e
+
+                                                                                                                     a
+                                                                                                                       h
+                                                                                                                                          k
+                                                                                                        s
+                                                                                                                                       g
+                                                                                                      a
+                                                                                                                                              t
+                                                                                                                                            a
+
+                                                                                                            a
                                                                                   m
-                                                                                                                            e
                                                                                                                               r
+                                                                                                                                  a
+                                                                                                                                     n
+                                                                              t
+                                                                                                                                        g
+                                                                             i
                                                                                 e
                                                                                                                                 b
-                                                                                      p
-                                                                                         a
-                                                                                                                    r
-                                                                                                                     a
-                                                                                                                         g
+                                                                          d
+                                                                                                                            e
+                                                                                               a
+                                                                                                          a
+                                                                                                               t
+                                                                                                             n
 
-                                                                 a
-                                                                    n
+
+                                                                                                     d
+                                                                                                  n
+                                                                                                        i
+
+                                                                                         a
+                                                                                      p
+                                                                                                                         g
+                                                                                                                     a
+                                                                                             k
+                                                                                                                 a
+                                                                                                                    r
+                                                                                            t
+
                                                                y
                                                                yang ditempatkan di antara gerbang
-                                                                  keluar/masuk data dalam jaringan
+                                                                 a
+                                                                    n
+                                                                       g
                                                                   k e l u a r / m   a  s u k   d a  t a   d a l a m     j a r i n g a n
-                                                           l
-
-                                      p
-
-                                                            u
-                                   l
-                                                                                a
-
-
-                                                                                   h
-                                                                                                          y
-                                                                                           o
-                                            a
-                                                    k
-                                                                                                r
-                                                                                              g
-                                               n
-                                                 g
-                                                                                                  a
-                                        e
-                                                         t
-                                                                                       p
-                                                                                                    m
-                                                                                          r
-                                           r
-                                                      a
-                        i
-                                                                    k
-                                                                             a
-                                a
-                                                                                                                 g
-                                                                  a
-                                                                          d
-                             w
-                          e
-                                                                       a
-                         r
-                                                                                l
-                      f
-                      firewall perangkat lunak adalah program yang
-                                                                                                            a
-                                                               n
-
-                                                                                                               n
-                                   l
-                          d
-                                                                                              v
-                                            a
-                                               d
-                                                                                                 e
-                          diinstal pada setiap komputer, server, atau
+                                                                  keluar/masuk data dalam jaringan
+                      Firewall perangkat lunak adalah program yang
+                      F i r e w a  l l   p e r a n g k a t   l u n a k   a d a  l a h   p r o g  r a m     y a n  g
                                                                                                    r
-                                     a
+                                                                                                     ,
+                                               d
+                                                  a
+
+                                                          t
+                                                                                             r
+                                                            i
+                                                                                              v
+                                                                                                 e
+                                                      s
+                                                        e
                                  s
                                n
-                                                                                                         t
-                                                                                                           a
+                                     a
                                     t
-                                                                                                             u
-                                        l
-
-                                                                                                     ,
-                                          p
+                          d
+                          diinstal pada setiap komputer, server, atau
+                              i
                              i
+                                                                                                             u
+                                            a
+                                                                                                         t
+
                                                                                                       a
 
-                              i
-                                                            i
-                                                                                     r
+                                        l
+                                          p
+                                                                                                           a
                                                              a
-                                                                                   e
-
-                                                        e
-                                                          t
-                                                                                       ,
-                                                                   k
-
-                                                                     o
-                                                                        m
-                                                                               u
-                                                                                 t
-                                                                            p
                                                                p
+                                                                                 t
 
-                                                      s
+                                                                   k
+                                                                            p
+
+                                                                                   e
+                                                                                       ,
+                                                                                     r
+                                                                     o
                                                                                           e
-                                                  a
-                                                                                             r
                                                                                         s
-                   perangkat jaringan lain bertujuan untuk mengatur
+                                                                               u
+                                                                        m
                    p e  r a n  g k a  t   j a r i n g a n   l a i n   b e r t u j u a n   u n t u k   m e n  g a  t u r
-                                                                                                                       .
-                                               g
+                   perangkat jaringan lain bertujuan untuk mengatur
+                                                                      i
                                                                                                                       t
-                            n
-                                                                  l
+                                                                                                                       .
+                                      j
+                                   s
+
+                                                                              i
                                                                                                                      r
                                                                                                                   o
-                                                                             l
-                                            n
+                                a
                                                                           p
-                               t
-                  lalu lintas jaringan melalui aplikasi dan nomor port.
-                           i
-                                                                                             n
                       u
 
-                   a
                       l
-                                                                      i
-                                                                   u
-                                                 a
-                          l
-                                                                        a
-
+                  lalu lintas jaringan melalui aplikasi dan nomor port.
                   l
-                                                                                      i
-                                      j
-                                       a
-                                           i
-                                                            e
+                   a
 
-                                                                                    s
-                                                                                        d
-                                          r
-
-                                                                                                   o
-                                                                                                      m
-
-                                                        m
+                                                                             l
+                               t
+                            n
+                                                                        a
+                          l
+                           i
+                                                    n
                                                                                                  n
 
 
-                                                                               k
-                                                               a
-                                a
-                                                                              i
-                                                                                                               p
-                                                                                 a
-                                                                                                          o
+                                                                                      i
+                                                 a
+                                                                                                   o
+                                                                                        d
+                                                              l
                                                                                            a
-                                                    n
-                                   s
+                                                            e
+                                                                                             n
+
+                                                               a
+                                                        m
+                                                                   u
                                                                                                              r
-                                                              l]]></page><page Index="35"><![CDATA[Berikut 7 jenis firewall berdasarkan metode
+                                          r
+                                                                               k
+                                                                                                               p
+
+                                       a
+                                                                                                          o
+                                                                                                      m
+                                               g
+                                                                                    s
+                                            n
+                                                                                 a
+                                                                  l
+                                           i]]></page><page Index="35"><![CDATA[Berikut 7 jenis firewall berdasarkan metode
 
 
                                penyaringan lalu lintas, struktur, dan
@@ -4249,9 +4416,9 @@
 
 
 
-
                                                 Mekanisme packet filtering firewall
                                                  M e  k a  n i s m  e    p a c  k e t   f i l t e r i n g   f i r e w a l l
+
 
             Packet  filtering  firewall  dapat  dibagi  menjadi  dua  kategori,  yaitu
 
@@ -5381,43 +5548,34 @@
         untuk melindungi jaringan dari ancaman siber.
 
 
-
-                                    n
-                                        W
-                  r
-                                             L
-                       e
-                    b
-                          d
-                                a
-                             a
-                                               A
-                                                                       i
-                                                                  W
-                                                                         -
-                                                                              i
-                                                                           F
-
-
-                                                   N
-                                                       d
-                                                              n
-                                                           a
-        1
-         .
-
+        1 .   P e r b  e  d  a  a   n    W   L A   N    d  a  n    W   i - F  i
         1. Perbedaan WLAN dan Wi-Fi
-               e
-            P
+
+
             a. WLAN (Wireless Local Area Network)
+
                  WLAN  adalah  teknologi  jaringan  berbasis  nirkabel  yang  digunakan
+
                  untuk menghubungkan perangkat dalam area jaringan lokal, seperti
+
+
                  rumah, kantor, sekolah, atau kampus.
+
+
+
             b. Wi-Fi (Wireless Fidelity)
+
                  Wi-Fi  adalah  standar  koneksi  jaringan  nirkabel  yang  beroperasi
+
+
                  berdasarkan  standar  komunikasi  IEEE  802.11  dan  bekerja  pada
+
                  physical layer dan data link layer.
+
+
+
             Dapat  disimpulkan  bahwa  WLAN  merupakan  konsep  jaringan  lokal
+
             berbasis  nirkabel  yang  tidak  terbatas  pada  satu  jenis  media
 
 
@@ -5432,65 +5590,123 @@
 
 
 
+                                                 K
+                                    t
+                                                       a
+                                                    e
+                                      o
+                                            o
+
+                                         k
+                                               l
+                                                           m
+                                                                                   i
+                                                                              W
+                                                                                    -
+                                                                                          i
+                                                                                       F
+                                                                   n
+                                                                a
+                                                                      a
+
+                                                                          n
+                                 o
+                      i
+                   n
+                        s
+                            P
+
+                e
+        2
         2. Jenis Protokol Keamanan Wi-Fi
-        2  .   J e n  i s    P r o  t o  k  o  l   K e a   m    a  n  a   n    W   i - F  i
+           .
+             J
 
-
+                               r
                Empat perkembangan protokol keamanan Wi-Fi sebagai berikut.
-
-
-
-                                              W
-                                                                                                                         P
-                                              WEP                                                                    WPA
-                                                   P
-                                                 E
                                                                                                                            A
+                                                                                                                         P
                                                                                                                      W
+                                              W  E P                                                                 WPA
+                                              WEP
+                                        q
+                                                                    c
+                                      E
+                                                               v
+                                                                 a
+                                                              i
+                                e
+                                   d
                                                                                                   (Wi-Fi Protected Access)
-                        (Wired Equivalent Privacy)
-                        ( W   i r e d   E q u i v a l e n t   P r i v a c y )                     ( W  i - F i   P r o t e c t e d   A c c e s s )
+
+                                                                      y
+                                                                        )
+                               r
+                                                             r
+                                                  l
+                          W
+                                                      n
+                                                   e
+                                                a
+                                              v
+                                             i
+                                          u
+                              i
+                        (
+                        (Wired Equivalent Privacy)                                                ( W  i - F i   P r o t e c t e d   A c c e s s )
+                                                        t
+
+                                                          P
                                     Baca Selengkapnya                                                       Baca Selengkapnya
-
-
-                                                                                                                          A
-                                                                                                                        P
                                                                                                                     W
+                                                                                                                        P
+                                                                                                                          A
                                                                                                                              3
-                                            W   P A  2                                                              WPA3
                                             WPA2
-                                                                                                 (Wi-Fi Protected Access3)
+                                            W   P A  2                                                              WPA3
+
+                                                                                                        -
+                                                                                                      i
+                                                                                                            i
+                                                                                                          F
+                                                                                                                     e
+                                                                                                                       c
+                                                                                                                         t
+                                                                                                                   t
+                                                                                                             P
+                                                                                                                r
+                                                                                                                 o
+                                                                                                                           e
+                                                                                                                                           s
+                                                                                                                                   c
+                                                                                                                                A
+                                                                                                                                         s
+                                                                                                                                       e
+                                                                                                                                     c
+                                                                                                 (
+                                                                                                                                                )
+                                                                                                   W
+                                                                                                                                             3
+
+                                                                                                                             d
+                         ( W  i - F i   P r o t e c t e d   A c c e s s 2 )                      (Wi-Fi Protected Access3)
                          (Wi-Fi Protected Access2)
-                         ( W  i - F i   P r o t e c t e d   A c c e s s 2 )                      ( W  i - F i   P r o t e c t e d   A c c e s s 3 )
                                     Baca Selengkapnya                                                       Baca Selengkapnya
+                                                                  Kerjakan
+                                                                  K    e   r  j a    k   a   n
+                                                                     a
+                                                                          l
 
-
-
-
-
-
-                                                                                              l
-                                                                                     o
-                                                                                 S
-                                                                                          a
-
-                                                     e
-                                                         r
-                                                K
-                                                Kerjakan Soal
-                                                            j
-                                                                       a
-                                                                           n
-                                                              a
-                                                                  k
-                                                              a
-                                                                   t
-                                                           Latihan
-                                                           L
-                                                                            a
-                                                                                 n
-                                                                      i
-                                                                        h]]></page><page Index="45"><![CDATA[BAB
+                                                             Soal Latihan
+                                                             S
+                                                                 o
+                                                                             L
+                                                                                          h
+                                                                                              a
+                                                                                                   n
+                                                                                a
+                                                                                     t
+                                                                                        i]]></page><page Index="45"><![CDATA[BAB
 
 
 
@@ -5511,8 +5727,36 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+                                                                             u
+                                                                                    t
+                                                                                         e
+                                                              r
+
+                                                                     A
+                                                                                               n
+                                                                                                                     a
+                                                                                                                            s
+                                                                                                                                  i
+                                                                                                       t
+                                                                                                           i
+                                                                                                              k
+                                     e
+                               S
                                Server Autentikasi
-                               S     e      r    v     e      r      A       u      t    e     n       t   i  k      a      s     i
+                                                       e
+                                                 v
+                                            r
 
 
 
@@ -5523,74 +5767,53 @@
 
 
 
+                 Tujuan Pembelajaran:
 
 
 
+                        1. Menguasai  konsep,  fungsi,  dan  cara
 
 
 
 
 
+                           kerja server autentikasi.
 
 
 
 
 
+                      2.   Mengidentifikasi                                            kebutuhan                                  untuk
 
 
 
 
 
+                           membangun  server  autentikasi  yang
 
 
 
 
 
+                           memadai.
 
 
 
 
+                      3.   Menganalisis                                        dan                      mengevaluasi
 
-          Tujuan Pembelajaran:
 
 
 
 
-                1.  Menguasai  konsep,  fungsi,  dan  cara  kerja
+                           proses                        autentikasi                                dalam                         suatu
 
 
 
-                    server autentikasi.
 
 
+                           jaringan.]]></page><page Index="46"><![CDATA[SERVER AUTENTIKASI
 
-
-               2.   Mengidentifikasi                                                   kebutuhan                                         untuk
-
-
-
-
-                    membangun                                        server                      autentikasi                               yang
-
-
-
-                    memadai.
-
-
-
-
-              3.    Menganalisis  dan  mengevaluasi  proses
-
-
-
-                    autentikasi dalam suatu jaringan.]]></page><page Index="46"><![CDATA[BAB 4
-
-
-
-
-
-
-                                        SERVER AUTENTIKASI
 
 
 
@@ -5715,40 +5938,29 @@
         tertentu yang dirancang untuk mengamankan
 
 
-        proses autentikasi.]]></page><page Index="47"><![CDATA[d
-                     o
+        proses autentikasi.]]></page><page Index="47"><![CDATA[1. Metode Autentikasi
+       1 .   M  e  t o  d  e    A  u  t e  n  t i k a   s i
 
-                           e
-                   t
-                                                        s
-            M
-                e
-                                                          i
-                                                i
-                                              t
-                                                    a
-                                                 k
-                                           n
-                                   u
-                               A
-                                        e
-                                      t
-
-       1
-       1. Metode Autentikasi
-         .
         a. Single-factor authentication (SFA)
+
+
+
              SFA          berarti           hanya             membutuhkan                        satu          jenis
+
              kredensial, biasanya username dan password. Model
+
              ini termasuk jenis autentikasi sederhana, akan tetapi
+
+
              sekarang                 dianggap                  kurang             aman              sehingga
+
+
              dibutuhkan  metode  tambahan  seperti  CAPTCHA
+
              untuk mengamankannya.
 
 
-
                                                       b. Multi-factor authentication (MFA)
-
 
 
                                                            MFA             adalah                teknik              autentikasi                  yang
@@ -5758,91 +5970,87 @@
 
                                                            kredensial                  untuk            memverifikasi                      identitas
 
-                                        OTP                pengguna.  Berikut  adalah  berbagai  metode
 
-
+                                                           pengguna.  Berikut  adalah  berbagai  metode
+                                        OTP
                                                            autentikasi                 yang           bisa          digunakan                  dalam
 
                                                            kombinasi.
+
 
         1)   Sesuatu yang kalian tahu, seperti nama pengguna dan kata sandi.
 
 
         2) Sesuatu yang kalian miliki, seperti token keamanan, kartu pintar, atau
 
-        kode  sekali  pakai  (OTP)  yang  dikirim  ke  perangkat  atau  alamat  surel
+        kode sekali pakai (OTP) yang dikirim ke perangkat atau e-mail kalian.
 
 
-        kalian.
-
-        3) Biometrik, seperti sidik jari, pengenalan wajah, atau verifikasi biometrik
-
-        lainnya.
-
-
-              Contoh implementasi MFA adalah Two-factor Authentication (2FA)
-
-        yang umumnya menggunakan kombinasi username dan password yang
-
-
-        diperkuat  dengan  menghubungkan  nomor  telepon  sebagai  penerima
-
-        OTP.
+        3) Biometrik, seperti sidik jari, pengenalan wajah, dan lain sebagainya.
 
 
 
-       2  .   C a  r a     K e  r j a    A u   t e n   t i k a  s  i
-       2. Cara Kerja Autentikasi
+         Contoh  implementasi  MFA  adalah  Two-factor  Authentication  (2FA)
+
+         yang  umumnya  menggunakan  kombinasi  username  dan  password
+
+         yang  diperkuat  dengan  menghubungkan  nomor  telepon  sebagai
+
+
+         penerima OTP.
+
+
+        2. Cara Kerja Autentikasi
+        2  .   C a  r a    K  e  r j a   A  u  t e  n  t i k  a  s  i
+
+         a. Single-factor authentication (SFA)
+
+
+               1) Pengguna memasukkan nama pengguna dan kata sandi kemudian
+
+
+               sistem akan mengenkripsi dan mengirimkannya ke server.
+
+
+               2) Server mendekripsi data tersebut dan membandingkannya dengan
+
+               informasi dalam database.
+
+               3)  Jika  informasi  sesuai,  autentikasi  dinyatakan  berhasil  dan
+
+
+               pengguna  tersebut  diberikan  otoritas  sah  untuk  mengakses  sistem
+
+               selanjutnya.
+
+
+         b. Multi-factor authentication (MFA)
 
 
 
-       a. Single-factor authentication (SFA)
+               1) Pengguna memasukkan nama pengguna dan kata sandi kemudian
+
+               sistem akan mengenkripsi dan mengirimkannya ke server.
+
+               2) Server mendekripsi data tersebut dan membandingkannya dengan
 
 
+               informasi dalam database.
 
-              1) Pengguna memasukkan nama pengguna dan kata sandi kemudian
-
-              sistem akan mengenkripsi dan mengirimkannya ke server.
-
-
-              2) Server mendekripsi data tersebut dan membandingkannya dengan
-
-              informasi dalam database.
+               3)  Jika  data  sesuai,  server  menciptakan  OTP  (One-time  Password),
 
 
-              3) Jika informasi sesuai, autentikasi dinyatakan berhasil dan pengguna
+               yang dikirimkan ke pengguna melalui nomor ponsel (terdaftar dalam
 
-              tersebut diberikan otoritas sah untuk mengakses sistem selanjutnya.
-
-
-
-       b. Multi-factor authentication (MFA)
+               server) yang dimiliki pengguna.
 
 
+               4) Pengguna menerima dan memasukkan OTP tersebut. Jika verifikasi
 
-             1) Pengguna memasukkan nama pengguna dan kata sandi kemudian
-
-
-             sistem akan mengenkripsi dan mengirimkannya ke server.
-
-             2) Server mendekripsi data tersebut dan membandingkannya dengan
+               oleh server dinyatakan benar, proses autentikasi selesai.
 
 
-             informasi dalam database.
-
-             3)  Jika  data  sesuai,  server  menciptakan  OTP  (One-time  Password),
-
-             yang dikirimkan ke pengguna melalui nomor ponsel
-
-
-             (terdaftar dalam server) yang dimiliki pengguna.
-
-             4) Pengguna menerima dan memasukkan OTP tersebut.
-
-
-             Jika verifikasi oleh server dinyatakan benar, proses
-
-             autentikasi selesai. Jika salah, proses akan diulang atau dibatalkan.]]></page><page Index="48"><![CDATA[t
+               Jika salah, proses akan diulang atau dibatalkan.]]></page><page Index="48"><![CDATA[t
                                                                                      i
                                                                                 n
                                                                            t
@@ -6084,11 +6292,11 @@
 
            pengguna diautentikasi dan diberikan akses.]]></page><page Index="50"><![CDATA[K
                              e
-                      a
-             C
+                                r
+
                 a
                     r
-                                r
+                      a
                                           D
                                               A
                                                  P
@@ -6096,15 +6304,23 @@
                                   j
                                     a
 
-          .
 
+             C
+          .
         2. Cara Kerja LDAP
         2
-            LDAP  bekerja  sebagai  klien-server,  dimana  klien  mengirimkan
-            permintaan  ke  server  LDAP,  dan  server  merespons  dengan  informasi
-            yang diminta.
-            Berikut  adalah  proses  kerja  LDAP  dengan  contoh  menghubungkan  ke
-            sebuah printer.
+             LDAP  bekerja  sebagai  klien-server,  dimana  klien  mengirimkan
+             permintaan ke server LDAP, dan server merespons dengan informasi
+             yang diminta.
+             Berikut adalah proses kerja LDAP dengan contoh menghubungkan ke
+             sebuah printer.
+
+
+
+
+
+
+
                    Koneksi                                      Binding
 
                  Pengguna                                    Direktori LDAP                                      Operasi: Search
@@ -6117,20 +6333,20 @@
              koneksi dengan                        memasukkan kredensial                                printer, nama printer, dan lainnya.
                                                                                                           Setelah autentikasi, klien dapat
               direktori LDAP.                         atau secara anonim,                               melakukan berbagai operasi LDAP
-
                                                       kemudian diverifikasi                                           seperti berikut.
+
 
               Proses LDAP                                   oleh direktori.                             Search: Mencari entri dalam direktori
                                                                                                         berdasarkan kriteria tertentu.
                   Selesai                                                                               Add: Menambahkan entri baru ke
 
-
           Berbekal informasi                            Operasi: Unbind                                 direktori.
+
          yang diperoleh dari                        Setelah informasi printer                           Delete: Menghapus entri dari
 
               direktori LDAP,                           diperoleh oleh klien                            direktori.
-
          pengguna akhirnya                             maka operasi sudah                               Modify: Mengubah entri yang ada di
+
          terhubung ke printer                             selesai dan klien                             direktori.
 
                   dan siap                           mengakhiri koneksi ke                              Unbind: Mengakhiri koneksi ke server
@@ -6176,7 +6392,13 @@
 
 
 
-                                                                        Sumber :  okta.com]]></page><page Index="51"><![CDATA[3 .   K e  u  n   g  g  u  l a  n    d  a  n    K e  l e  m    a  h  a   n    L D  A  P
+
+
+
+
+
+
+                                                                         Sumber :  okta.com]]></page><page Index="51"><![CDATA[3 .   K e  u  n   g  g  u  l a  n    d  a  n    K e  l e  m    a  h  a   n    L D  A  P
         3. Keunggulan dan Kelemahan LDAP
 
 
@@ -6299,7 +6521,9 @@
 
                  berkomunikasi dengan server LDAP.]]></page><page Index="52"><![CDATA[e. Mengaktifkan log akses ke direktori LDAP
 
+
               Dengan mengaktifkan log akses dapat mempermudah pemantauan
+
 
               dan  pengauditan  akses  ke  direktori  LDAP,  seperti  menganalisis
 
@@ -6307,16 +6531,13 @@
               tindakan ilegal hingga melakukan perbaikan.
 
 
+         f. Memperbarui dan patch secara rutin
 
-         e. Mengaktifkan log akses ke direktori LDAP
+
               Memastikan  bahwa  server  LDAP  selalu  diperbarui  dengan  patch
 
 
               keamanan terbaru untuk melindungi dari kerentanan.
-
-
-
-
 
 
                                                                          A
@@ -6405,11 +6626,12 @@
 
                      Menyediakan  fitur  tambahan  seperti  Group  Policy,  integrasi
 
+
                      mendalam dengan sistem Windows, dan manajemen domain.
 
 
-
         c. Perbandingan dengan LDAP
+
 
 
                      LDAP  adalah  protokol  dasar  untuk  akses  direktori  yang  dapat
@@ -6437,10 +6659,11 @@
 
        Remote  authentication  dial-in  user  service  (RADIUS)  adalah  protokol
 
+
        jaringan  yang  digunakan  untuk  mengelola  autentikasi,  otorisasi,  dan
 
-
        akuntansi  (AAA)  bagi  pengguna  jarak  jauh  yang  mengakses  layanan
+
 
        jaringan.  Protokol  ini  menyediakan  sistem  manajemen  terpusat  untuk
 
@@ -6450,6 +6673,7 @@
        mengautentikasi pengguna yang terhubung ke jaringan melalui berbagai
 
        perangkat, termasuk router, firewall, dan VPN.
+
 
 
 
@@ -6495,8 +6719,9 @@
             berinteraksi dengan database eksternal dan layanan direktori.
 
 
-       b. RADIUS Client
 
+
+       b. RADIUS Client
 
 
 
@@ -6507,10 +6732,10 @@
 
             Klien bertindak sebagai perantara atau antarmuka (seperti konsentrator
 
+
             VPN, router, switch) antara pengguna jarak jauh dan RADIUS server, yaitu
 
             dengan  meneruskan  kredensial  pengguna  ke  server  untuk  diverifikasi
-
 
             dan ditentukan otorisasinya berdasarkan ketentuan sistem.
 
@@ -6536,107 +6761,120 @@
 
 
 
+                                                                     Sumber :  cbtnuggets.com]]></page><page Index="54"><![CDATA[j
+                                   r
+                                       a
+                                           S
+
+                                e
+                       r
+                   a
+                         a
+                             K
+
+                                              e
+                                                                   D
+                                                               A
+                                                                      I
+                                                                           S
+                                                                       U
+                                                            R
+                                                   v
+                                                 r
+                                                      e
+
+                                                         r
+
+                C
+             .
+           2. Cara Kerja Server RADIUS
+           2
+               Proses autentikasi dan otorisasi dengan server RADIUS berlangsung
+               melalui  beberapa  tahapan  yang  melibatkan  komunikasi  antara
+               klien RADIUS dan server RADIUS. Proses ini bertujuan untuk menjamin
+               bahwa  hanya  pengguna  sah  yang  terverifikasi  dalam  proses
+               autentikasi  yang  dapat  diotorisasi  untuk  mengakses  jaringan  atau
+               sumber daya tertentu.
+               Berikut adalah penjelasan langkah demi langkah proses tersebut.
+               a. Self-authentication RADIUS client
+
+
+                   Perangkat  klien  akan  melakukan  autentikasi  dirinya  sendiri
+
+                   menggunakan kredensial seperti nama pengguna dan kata sandi.
 
 
 
+               b. "Access-Request" message
 
 
 
-                                                                     Sumber :  cbtnuggets.com]]></page><page Index="54"><![CDATA[r
-                                                            A
-                                                         R
-                                                   e
-                                                                D
-                                                                   I
-                                                v
-             C
-                                    a
-                                  j
-                                        S
-
-                                r
-                a
-                    r
-                             e
-                          K
-        2. Cara Kerja Server RADIUS
-                                           e
-        2
-
-          .
-                                                                        S
-                                                                    U
-                      a
-                                              r
-
-            Proses  autentikasi  dan  otorisasi  dengan  server  RADIUS  berlangsung
-            melalui  beberapa  tahapan  yang  melibatkan  komunikasi  antara  klien
-            RADIUS dan server RADIUS. Proses ini bertujuan untuk menjamin bahwa
-            hanya pengguna sah yang terverifikasi dalam proses autentikasi yang
-            dapat  diotorisasi  untuk  mengakses  jaringan  atau  sumber  daya
-            tertentu.
-            Berikut adalah penjelasan langkah demi langkah proses tersebut.
-            a. Self-authentication RADIUS client
-                Pada tahap awal, perangkat klien akan melakukan autentikasi dirinya
-                sendiri  menggunakan  kredensial  seperti  nama  pengguna  dan  kata
-                sandi.
+                   Klien  RADIUS  akan  mengirim  pesan  permintaan  akses  (Access-
 
 
-            b. "Access-Request" message
-
-                Selanjutnya,  klien  RADIUS  akan  mengirim  pesan  permintaan  akses
-
-                (Access-Request) ke server RADIUS yang berisi nama pengguna dan
+                   Request) ke server RADIUS yang berisi nama pengguna dan kata
 
 
-                kata sandi.
+                   sandi.
 
 
-            c. RADIUS server authentication
 
-                Server RADIUS menggunakan informasi dalam permintaan (request)
-
-                tersebut  untuk  mengautentikasi  pengguna  berdasarkan  informasi
+               c. RADIUS server authentication
 
 
-                database eksternal, seperti active directory.
+                   Server  RADIUS  menggunakan  informasi  dalam  permintaan
 
 
-            d. Database matching
-
-                Jika  server  RADIUS  menemukan  kecocokan  kredensial  dalam
-
-                database,  sistem  akan  mengambil  informasi  tambahan  pengguna
+                   (request) tersebut untuk mengautentikasi pengguna berdasarkan
 
 
-                dari database tersebut.
+                   informasi database eksternal, seperti active directory.
 
 
-            e. Access policy checks
-                Setelah  kredensial  terkonfirmasi  sesuai  dengan  data,  server  RADIUS
+
+               d. Database matching
 
 
-                memeriksa  apakah  ada  kebijakan  akses  atau  profil  yang  cocok
 
-                dengan kredensial pengguna. Jika ditemukan dan mode multi-factor
-
-
-                authentication (MFA) telah diaktifkan, pengguna akan diminta untuk
-
-                menginputkan OTP yang dikirimkan oleh server.
+                   Jika  server  RADIUS  menemukan  kecocokan  kredensial  dalam
 
 
-            f. Response validation
-
-                Setelah  klien  mengirimkan  nilai  OTP  dari  server,  OTP  tersebut  akan
+                   database,                sistem             akan           mengambil                    informasi               tambahan
 
 
-                divalidasi. Jika valid, server mengirim pesan "Access-Accept" kembali
-
-                ke perangkat
+                   pengguna dari database tersebut.
 
 
-            g. Rejects message
+
+               e. Access policy checks
+
+
+
+                    Setelah  kredensial  terkonfirmasi  sesuai  dengan  data,  server
+
+
+                    RADIUS memeriksa apakah ada kebijakan akses atau profil yang
+
+                    cocok  dengan  kredensial  pengguna.  Jika  ditemukan  dan  mode
+
+
+                    multi-factor authentication(MFA) telah diaktifkan, pengguna akan
+
+
+                    diminta untuk menginputkan OTP yang dikirimkan oleh server.
+
+
+
+                f. Response validation
+
+
+
+                    Server akan memvalidasi OTP yang dikirimkan oleh klien. Jika valid,
+
+
+                    server mengirim pesan "Access-Accept" kembali ke perangkat]]></page><page Index="55"><![CDATA[g. Rejects message
+
+
 
                 Jika OTP yang dikirimkan klien tidak valid, server RADIUS mengirimkan
 
@@ -6648,133 +6886,20 @@
 
             h. "Access-Accept" message
 
+
+
                 Pesan  yang  berisi  informasi  penerimaan  akses  biasanya  memiliki
 
-                atribut ID Filter dan shared secret. Jika klien RADIUS tidak mengenali
 
+                atribut ID Filter dan shared secret. Jika klien RADIUS tidak mengenali
 
                 shared secret yang diterimanya, klien akan menolak pesan tersebut.
 
 
-            i. ID Filter match
-
-                Jika shared secret yang diterima oleh klien sesuai dengan ---- -----
-
-                sistem,  klien  akan  membaca  nilai  atribut  ID  Filter.  -----  ----
-
-
-                Selanjutnya, klien RADIUS menghubungkan pengguna ke ----- ------
-
-                grup RADIUS tertentu menggunakan ID Filter ini.]]></page><page Index="55"><![CDATA[r
-                      a
-                                                         R
-                                                   e
-                                                                D
-                                                                   I
-                                                v
-             C
-
-                                    a
-                                                            A
-                                        S
-                                  j
-                a
-                    r
-                                r
-                             e
-        2. Cara Kerja Server RADIUS
-                                           e
-        2
-
-          .
-                                                                        S
-                                                                    U
-
-                                              r
-                          K
-            Proses  autentikasi  dan  otorisasi  dengan  server  RADIUS  berlangsung
-            melalui  beberapa  tahapan  yang  melibatkan  komunikasi  antara  klien
-            RADIUS dan server RADIUS. Proses ini bertujuan untuk menjamin bahwa
-            hanya pengguna sah yang terverifikasi dalam proses autentikasi yang
-            dapat  diotorisasi  untuk  mengakses  jaringan  atau  sumber  daya
-            tertentu.
-            Berikut adalah penjelasan langkah demi langkah proses tersebut.
-            a. Self-authentication RADIUS client
-                Perangkat  klien  akan  melakukan  autentikasi  dirinya  sendiri
-                menggunakan kredensial seperti nama pengguna dan kata sandi.
-            b. "Access-Request" message
-
-
-                Klien  RADIUS  akan  mengirim  pesan  permintaan  akses  (Access-
-
-                Request)  ke  server  RADIUS  yang  berisi  nama  pengguna  dan  kata
-
-                sandi.
-
-
-            c. RADIUS server authentication
-
-                Server RADIUS menggunakan informasi dalam permintaan (request)
-
-
-                tersebut  untuk  mengautentikasi  pengguna  berdasarkan  informasi
-
-                database eksternal, seperti active directory.
-
-
-            d. Database matching
-
-                Jika  server  RADIUS  menemukan  kecocokan  kredensial  dalam
-
-
-                database,  sistem  akan  mengambil  informasi  tambahan  pengguna
-
-                dari database tersebut.
-
-
-            e. Access policy checks
-
-                Setelah  kredensial  terkonfirmasi  sesuai  dengan  data,  server  RADIUS
-
-                memeriksa  apakah  ada  kebijakan  akses  atau  profil  yang  cocok
-
-
-                dengan kredensial pengguna. Jika ditemukan dan mode multi-factor
-
-                authentication(MFA)  telah  diaktifkan,  pengguna  akan  diminta  untuk
-
-
-                menginputkan OTP yang dikirimkan oleh server.
-
-
-            f. Response validation
-
-                Server  akan  memvalidasi  OTP  yang  dikirimkan  oleh  klien.  Jika  valid,
-
-                server mengirim pesan "Access-Accept" kembali ke perangkat
-
-
-            g. Rejects message
-
-                Jika OTP yang dikirimkan klien tidak valid, server RADIUS mengirimkan
-
-
-                notifikasi  berupa  "Access-Reject"  dan  mengakhiri  transaksi,  yang
-
-                mengakibatkan pengguna ditolak mengakses sistem.
-
-
-            h. "Access-Accept" message
-
-                Pesan  yang  berisi  informasi  penerimaan  akses  biasanya  memiliki
-
-                atribut ID Filter dan shared secret. Jika klien RADIUS tidak mengenali
-
-
-                shared secret yang diterimanya, klien akan menolak pesan tersebut.
-
 
             i. ID Filter match
+
+
 
                 Jika  shared  secret  yang  diterima  oleh  klien  sesuai  dengan  sistem,
 
@@ -6783,42 +6908,46 @@
 
                 menghubungkan  pengguna  ke  grup  RADIUS  tertentu  ----  -----
 
-                menggunakan ID Filter ini.]]></page><page Index="56"><![CDATA[t
+                menggunakan ID Filter ini.
+
+
+
+                                                   k
+                                                      a
+                                               t
+                                                 i
+                                                         s
+                                                              S
+                                                                 e
+                                                            i
+
+                    t
+                                            n
+                            e
+                                       t
+                                         e
+
+                         d
                                     u
                                 A
-                                         e
-                                                 i
-                                               t
-                                            n
-
-                                                                                           U
-                                                                                              S
-                                                                                         I
-                    t
-                            e
-                         d
                       o
-                                                                            r
-                                                                         e
+                                                                    r
+             M
+                                                                                              S
+                                                                                           U
+                 e
+        3
+        3. Metode Autentikasi Server RADIUS
+
+          .
+                                                                                         I
                                                                       v
+                                                                         e
+                                                                            r
 
                                                                                       D
                                                                                   A
                                                                                R
-                                                                    r
-                                                         s
-                                                      a
-                                                   k
-                                                            i
-                                                                 e
-                                                              S
-
-
-                 e
-             M
-        3. Metode Autentikasi Server RADIUS
-        3
-          .
             Berikut  adalah  penjelasan  tentang  lima  metode  autentikasi  yang
             didukung oleh server RADIUS.
             a. PAP (Password Authentication Protocol)
@@ -6851,8 +6980,8 @@
 
                  keamanan CHAP untuk menghasilkan respons dan mengirimkannya
 
-                 kembali  ke  server  untuk  verifikasi.  CHAP  telah  memperbaiki
 
+                 kembali  ke  server  untuk  verifikasi.  CHAP  telah  memperbaiki
 
                  keamanannya dengan memastikan bahwa kata sandi tidak pernah
 
@@ -6861,62 +6990,63 @@
 
                  men-generate  tantangan  pertanyaan  yang  berubah-ubah  guna
 
-                 mencegah serangan replay.
+
+                 mencegah serangan replay.]]></page><page Index="56"><![CDATA[c. MS-CHAP
 
 
 
-            c. MS-CHAP
+                MS-CHAP  adalah  model  keamanan  CHAP  yang  digunakan  untuk
+
+                jaringan  berbasis  Microsoft.  Standar  ini  digunakan  sebagai  opsi
+
+
+                autentikasi  dalam  implementasi  Microsoft  dengan  protokol  PPTP
+
+                (point-to-point  tunneling  protocol)  untuk  VPN.  Dibanding  CHAP
+
+
+                sebelumnya,  standar  keamanan  MS-CHAP  telah  dilengkapi  dengan
+
+                metode  pengubahan  kata  sandi  secara  otomatis  dan  sistem
+
+
+                autentikasi dua arah. Saat ini terdapat dua versi MS-CHAP, yaitu MS-
+
+                CHAPv1 dan MS-CHAPv2.
 
 
 
-                 MS-CHAP  adalah  model  keamanan  CHAP  yang  digunakan  untuk
-
-
-                 jaringan  berbasis  Microsoft.  Standar  ini  digunakan  sebagai  opsi
-
-                 autentikasi  dalam  implementasi  Microsoft  dengan  protokol  PPTP
-
-
-                 (point-to-point  tunneling  protocol)  untuk  VPN.  Dibanding  CHAP
-
-                 sebelumnya,  standar  keamanan  MS-CHAP  telah  dilengkapi  dengan
-
-
-                 metode  pengubahan  kata  sandi  secara  otomatis  dan  sistem
-
-                 autentikasi dua arah. Saat ini terdapat dua versi MS-CHAP, yaitu MS-
-
-
-                 CHAPv1 dan MS-CHAPv2.
+           d. EAP (Extensible Authentication Protocol)
 
 
 
-            d. EAP (Extensible Authentication Protocol)
+                EAP  merupakan  jenis  framework  yang  digunakan  untuk  autentikasi
+
+                dalam  jaringan  nirkabel  dan  koneksi  point-to-point.  Kelebihan  EAP
+
+
+                adalah dukungan terhadap beragam metode autentikasi, termasuk
+
+                kata sandi, sertifikat digital, token keamanan, dan biometrik.
+
+
+                Selain itu, EAP bekerja sebagai lapisan autentikasi dalam -------- --
+
+                protokol PPP dan memungkinkan penggunaan metode --- --------
+
+
+                autentikasi  yang  luas  dan  mudah  diintegrasikan  ------  -----
+
+                dengan standar lainnya.
 
 
 
-                 EAP  merupakan  jenis  framework  yang  digunakan  untuk  autentikasi
-
-                 dalam  jaringan  nirkabel  dan  koneksi  point-to-point.  Kelebihan  EAP
-
-
-                 adalah dukungan terhadap beragam metode autentikasi, termasuk
-
-                 kata sandi, sertifikat digital, token keamanan, dan biometrik.
-
-                 Selain itu, EAP bekerja sebagai lapisan autentikasi dalam -------- --
-
-
-                 protokol PPP dan memungkinkan penggunaan metode --- --------
-
-
-                 autentikasi  yang  luas  dan  mudah  diintegrasikan  ------  -----
-
-                 dengan standar lainnya.]]></page><page Index="57"><![CDATA[e. EAP-TLS (EAP-transport layer security)
+           e. EAP-TLS (EAP-transport layer security)
 
 
 
                  EAP-TLS merupakan generasi lanjutan dari EAP yang menggunakan
+
 
                  transport layer security (TLS) sebagai sarana autentikasi yang aman
 
@@ -6929,184 +7059,190 @@
 
 
 
-                                                                   s
-                                                                      i
-                                                             k
-                                                                a
-                                                                            O
-                                                                               t
-
-                                                                       ,
-                                 k
-                                    a
-
-                        a
-                           n
-                              g
-                                           A
-                                                      n
-                                                         t
-                                                           i
-                                              u
-                                                 t
-                                                   e
-                                                                                                                             n
-                                                                                                                                t
-                                                                                                                                  a
-                                                                                                                   A
-                                                                                                                       k
-                                                                                                                          u
-                                                                                                                                     n
-                                                                                                                                                (
-                                                                                                                                                  A
-                                                                                                                                                     A
-                                                                                                                                        s
-                                                                                                                                           i
-
-                                                                                        s
                                                                                           a
-                                                                                              s
-                                                                                 o
-                                                                                    r
+                                                                                        s
                                                                                       i
+                                                                                              s
                                                                                                 i
-                                                                                                         a
-                                                                                                             n
-
                                                                                                   ,
+                                                                                    r
+                                                                a
+                                                                   s
+                                                          t
+                                                             k
+                                                            i
+                                                                      i
+                                                                               t
+                                                                                 o
+                                                                           O
+                                                                       ,
+
+                                                                                                                                     n
+                                                                                                                                        s
+                                                                                                                               t
+                                                                                                                                 a
+                                                                                                                                           i
+                                                                                                                                                 A
+                                                                                                                                                     A
+
+                                                                                                                                               (
+                                                                                                         a
+                                                                                                            n
 
                                                                                                       d
-                   e
-               K
-           .
-                     r
-        4
 
-                                                                                                                                                         A
+                                                                                                                         u
+                                                                                                                            n
+                                                                                                                  A
+                                                                                                                      k
+                                                      n
+                                                                                                                                                        A
         4.  Kerangka  Autentikasi,  Otorisasi,  dan  Akuntansi  (AAA
-            a
-               m
-                     e
-        F
-                                 k
+                        a
+                      r
+        4
+                   e
+           .
+
+                K
+                                              u
+                                           A
+                                                   e
+                                                  t
+
+                              g
+                           n
+                                     a
+                                  k
         Framework)
-                                    )
-                               r
-                        w
-          r
-                            o
-            Kerangka  AAA  adalah  model  penting  dalam  manajemen  keamanan
-            jaringan  yang  memberikan  mekanisme  yang  kuat  untuk  mengontrol
-            akses,  mengelola  hak  pengguna,  dan  memantau  aktivitas.  Dengan
-            implementasi  yang  tepat,  AAA  dapat  secara  signifikan  meningkatkan
-            keamanan dan kepatuhan dalam lingkungan jaringan.
-            Berikut penjelasan masing-masing komponen AAA.
-            a. Authentication (autentikasi)
+        F  r a  m    e  w   o  r k  )
+                Kerangka AAA adalah model penting dalam manajemen keamanan
+                jaringan yang memberikan mekanisme yang kuat untuk mengontrol
+                akses,  mengelola  hak  pengguna,  dan  memantau  aktivitas.  Dengan
+                implementasi yang tepat, AAA dapat secara signifikan meningkatkan
+                keamanan dan kepatuhan dalam lingkungan jaringan.
+                Berikut penjelasan masing-masing komponen AAA.
+           a. Authentication (autentikasi)
                  Autentikasi  adalah  proses  untuk  memverifikasi  identitas  pengguna
                  atau  perangkat  yang  mencoba  mengakses  sistem  atau  jaringan.
                  Proses ini biasanya melibatkan penggunaan kredensial seperti nama
                  pengguna dan kata sandi, OTP, kartu akses, atau biometrik.
-                 1) Proses kerja
-                      a) Pengguna memasukkan kredensial autentikasi.
-                      b)  Sistem  membandingkan  kredensial  dengan  data  dalam
-                      database autentikasi.
-                      c) Jika kredensial valid, akses diberikan; jika tidak, akses ditolak.
-                 2) Tujuan
-                      Proses  ini  memastikan  bahwa  hanya  pengguna  atau  perangkat
+                1) Proses kerja
+                     a) Pengguna memasukkan kredensial autentikasi.
+                     b) Sistem membandingkan kredensial dengan
+                           data dalam database autentikasi.
+                     c) Jika kredensial valid, akses diberikan; jika tidak,
+                          akses ditolak.]]></page><page Index="57"><![CDATA[2) Tujuan
+
+
+
+                      Proses ini memastikan bahwa hanya pengguna atau perangkat
+
+
                       yang sah yang dapat mengakses sistem.
-            b. Authorization (otorisasi)
 
 
-                 Otorisasi  adalah  proses  yang  menentukan  hak  dan  izin  pengguna
+
+          b. Authorization (otorisasi)
 
 
-                 setelah  identitas  mereka  diverifikasi.  Setelah  autentikasi  berhasil,
 
-                 sistem menentukan tingkat akses yang diberikan kepada pengguna
-
-
-                 berdasarkan kebijakan keamanan yang telah ditetapkan.
+               Otorisasi  adalah  proses  yang  menentukan  hak  dan  izin  pengguna
 
 
+               setelah  identitas  mereka  diverifikasi.  Setelah  autentikasi  berhasil,
+
+
+               sistem menentukan tingkat akses yang diberikan kepada pengguna
+
+
+               berdasarkan kebijakan keamanan yang telah ditetapkan.
 
 
 
                  1) Proses kerja
+
 
                       a)  Setelah  autentikasi,  sistem  memeriksa  hak  akses  sesuai
 
 
                       identitas pengguna.
 
-                      b)  Berdasarkan  peran  atau  atribut  lainnya,  sistem  memberikan
+
+                      b) Berdasarkan peran atau atribut lainnya, sistem memberikan
 
 
                       atau membatasi akses ke sumber daya tertentu.
 
 
 
-
-
                  2) Tujuan
 
-                      a)  Mengontrol  hal-hal  yang  dapat  dilakukan  oleh  -------  ---
-
-                      pengguna di dalam sistem atau jaringan.
 
 
-                      b)  Mencegah  akses  yang  tidak  sah  atau  tidak------------
-
-                      diinginkan ke sumber daya yang sensitif.]]></page><page Index="58"><![CDATA[c. Accounting (akuntansi)
+                      a) Mengontrol hal-hal yang dapat dilakukan oleh pengguna di
 
 
-
-                 Akuntansi  adalah  proses  pencatatan  aktivitas  pengguna  yang
-
-                 berinteraksi dengan sistem atau jaringan. Data ini digunakan untuk
-
-                 tujuan pelacakan, audit, dan pemantauan aktivitas pengguna.
+                      dalam sistem atau jaringan.
 
 
+                      b)  Mencegah  akses  yang  tidak  sah  atau  tidak  diinginkan  ke
+
+
+                      sumber daya yang sensitif.
+
+
+          c. Accounting (akuntansi)
+
+
+
+
+               Akuntansi  adalah  proses  pencatatan  aktivitas  pengguna  yang
+
+
+               berinteraksi dengan sistem atau jaringan. Data ini digunakan untuk
+
+               tujuan pelacakan, audit, dan pemantauan aktivitas pengguna.
 
 
 
                  1) Proses kerja
 
 
-                   a)  Mencatat  informasi  seperti  waktu  login,  durasi  sesi,  sumber
+
+                      a)  Mencatat  informasi  seperti  waktu  login,  durasi  sesi,  sumber
+
 
                       daya yang diakses, dan tindakan yang dilakukan.
 
 
                       b)  Menyimpan  log  aktivitas  untuk  analisis  dan  audit  di  masa
 
+
                       mendatang.
-
-
 
 
 
                  2) Tujuan
 
 
-                      a) Memantau penggunaan sumber daya dan aktivitas pengguna.
+                      a)  Memantau  penggunaan  sumber  daya  dan  aktivitas
+
+
+                      pengguna.
+
 
                       b)  Membantu  dalam  mendeteksi  dan  menganalisis  insiden
 
 
                       keamanan.
 
-                      c) Menghitung penggunaan sumber daya untuk tujuan penagihan
+
+                      c)  Menghitung  penggunaan  sumber  daya  untuk  tujuan
 
 
-                      (billing).
+                      penagihan (billing).]]></page><page Index="58"><![CDATA[Kerberos Authentication
 
-
-
-
-
-
-                                                 Kerberos Authentication
 
 
 
@@ -7116,20 +7252,24 @@
 
         Kerberos               adalah             protokol              autentikasi                jaringan              komputer                 yang
 
+
         dikembangkan  pada  tahun  1988  oleh  para  ilmuwan  komputer  di
 
 
         Massachusetts Institute of Technology (MIT). Protokol ini dirancang untuk
+
 
         menyediakan  sistem  autentikasi  yang  aman  dan  kuat  pada  pengguna
 
 
         dalam  jaringan  tanpa  perlu  mengirimkan  kata  sandi  melalui  internet
 
+
         sehingga  membantu  mencegah  penyalahgunaan  identitas  pengguna
 
 
         oleh  peretas.  Kerberos  dapat  diinstal  dan  dikonfigurasi  pada  perangkat
+
 
         server berbasis Windows maupun Linux.
 
@@ -7142,307 +7282,340 @@
 
         mendukung  protokol  autentikasi  Kerberos  versi  5  beserta  ekstensinya
 
+
         untuk public key authentication, transportasi data otorisasi, dan delegasi.
+
 
         Aplikasi  autentikasi  Kerberos  digunakan  sebagai  penyedia  dukungan
 
 
         keamanan  atau  SSP  (Security  Support  Provider)  dan  dapat  diakses
 
+
         melalui  antarmuka  penyedia  dukungan  keamanan  atau  SSPI  (Security
 
 
         Support Provider Interface). Dengan mengintegrasikan proses autentikasi
+
 
         pengguna  dengan  Winlogon  single  sign-on  architecture,  maka  akan
 
 
         memudahkan pengguna untuk masuk cukup sekali saja serta mengakses
 
-        berbagai layanan dan aplikasi yang terautentikasi dalam jaringan.]]></page><page Index="59"><![CDATA[1. Key Distribution Center (KDC)
-        1 .   K e y    D  i s t r i b u   t i o n    C  e  n  t e  r   ( K  D  C   )
+
+        berbagai layanan dan aplikasi yang terautentikasi dalam jaringan.
 
 
+
+                           s
+                              t
+                                  i
+                                r
+                          i
+                  y
+
+                      D
+
+
+                                                n
+                                                        e
+                                                    C
+                                             o
+                                      u
+                                   b
+                                            i
+                                          t
+                                                                      (
+        1. Key Distribution Center (KDC)
+                                                           n
+                                                              t
+            K
+        1
+         .
+
+                                                                            D
+                                                                               C
+                                                                                   )
+                                                                         K
+                                                                   r
+                                                                e
+               e
             Kerberos Key Distribution Center (KDC) merupakan komponen penting
-
-
             dalam  infrastruktur  Kerberos  yang  berperan  sebagai  layanan  untuk
-
             men-generate  serta  merilis  sertifikat  autentikasi  dan  sesi  koneksi.
-
-
             Dalam  lingkungan  Windows  Server,  KDC  terintegrasi  dengan  layanan
-
             keamanan  lain  yang  berjalan  di  domain  controller,  memanfaatkan
-
-
             basis data Active Directory Domain Services (AD DS) domain sebagai
-
             database akun keamanannya. KDC dalam Windows Server terdiri dari
-
-
             dua bagian utama, yaitu sebagai berikut.
-
-
-
             a. Authentication Server (AS)
-
-
-
                  AS adalah bagian dari KDC yang menangani proses autentikasi awal
+
 
                  pengguna.  Ketika  pengguna  pertama  kali  mencoba  masuk  ke
 
 
                  jaringan,  mereka  mengirim  permintaan  ke  AS  untuk  mendapatkan
 
+
                  tiket  autentikasi  awal.  AS  memverifikasi  kredensial  pengguna
 
 
                  kemudian  mengeluarkan  tiket  yang  disebut  Ticket-Granting  Ticket
 
-                 (TGT) jika valid.
 
+                 (TGT) jika valid.]]></page><page Index="59"><![CDATA[b. Ticket-Granting Service (TGS)
 
 
-            b. Ticket-Granting Service (TGS)
 
+                   Setelah  pengguna  memiliki  TGT  dari  AS,  mereka  dapat  meminta
 
+                   akses  ke  layanan  lain  di  jaringan.  Permintaan  ini  dikirim  ke  TGS
 
-                 Setelah  pengguna  memiliki  TGT  dari  AS,  mereka  dapat  meminta
 
+                   yang  memverifikasi  TGT  kemudian  mengeluarkan  tiket  layanan
 
-                 akses ke layanan lain di jaringan. Permintaan ini dikirim ke TGS yang
 
-                 memverifikasi  TGT  kemudian  mengeluarkan  tiket  layanan  (service
+                   (service ticket) untuk layanan yang diinginkan pengguna jika valid.
 
-                 ticket)  untuk  layanan  yang  diinginkan  pengguna  jika  valid.  Tiket  ini
 
+                   Tiket  ini  digunakan  oleh  pengguna  untuk  mengakses  layanan
 
-                 digunakan  oleh  pengguna  untuk  mengakses  layanan  tanpa  harus
 
-                 autentikasi ulang.
+                   tanpa harus autentikasi ulang.
 
 
 
-        2 .   K e  u  n  g   g  u  l a  n    d a   n    K e  l e  m    a  h  a  n     K e  r b  e  r o  s
-        2. Keunggulan dan Kelemahan Kerberos
+          2 .   K e  u  n   g  g  u  l a  n    d  a  n    K e  l e  m    a  h  a   n    K e  r b  e  r o  s
+          2. Keunggulan dan Kelemahan Kerberos
 
 
+              a. Keunggulan Kerberos
 
-            a. Keunggulan Kerberos
 
 
 
-                 1) Keamanan yang kuat
+                   1) Keamanan yang kuat
 
-                 Kerberos menggunakan kriptografi kunci simetris dan protokol yang
 
+                   Kerberos  menggunakan  kriptografi  kunci  simetris  dan  protokol
 
-                 aman  untuk  memastikan  bahwa  kredensial  pengguna  dan
 
-                 komunikasi antara klien dan server terlindungi.
+                   yang  aman  untuk  memastikan  bahwa  kredensial  pengguna  dan
 
 
+                   komunikasi antara klien dan server terlindungi.
 
 
+                   2) Autentikasi terpusat
 
-                 2) Autentikasi terpusat
 
+                   Dengan  KDC,  Kerberos  menyediakan  autentikasi  terpusat  yang
 
-                 Dengan  KDC,  Kerberos  menyediakan  autentikasi  terpusat  yang
 
-                 memudahkan pengelolaan pengguna dan akses ke layanan.
+                   memudahkan pengelolaan pengguna dan akses ke layanan.
 
 
 
+                   3) Mencegah serangan replay
 
 
-                 3) Mencegah serangan replay
+                   Tiket  dan  timestamp  dalam  protokol  Kerberos  membantu
 
 
-                 Tiket dan timestamp dalam protokol Kerberos membantu mencegah
+                   mencegah  serangan  replay,  yaitu  ketika  penyerang  mencoba
 
-                 serangan  replay,  yaitu  ketika  penyerang  mencoba  menggunakan
 
-                 kembali data autentikasi yang telah dicuri.
+                   menggunakan kembali data autentikasi yang telah dicuri.
 
 
 
+                   4) Dukungan multi-platform
 
 
-                 4) Dukungan multi-platform
+                   Kerberos  adalah  protokol  yang  umum  digunakan  dan  didukung
 
 
-                 Kerberos adalah protokol yang umum digunakan dan -------------
+                   oleh  berbagai  sistem  operasi  dan  aplikasi,  termasuk  Windows,
 
-                 didukung oleh berbagai sistem operasi dan aplikasi, ---------------
+                   Linux, dan Unix.
 
 
-                 termasuk Windows, Linux, dan Unix.]]></page><page Index="60"><![CDATA[b. Kelemahan Kerberos
 
+              b. Kelemahan Kerberos
 
 
-                 1) Single point of failure
 
+                   1) Single point of failure
 
-                 Jika  KDC  mengalami  kegagalan  atau  diserang,  seluruh  sistem
 
-                 autentikasi bisa terpengaruh, menyebabkan gangguan besar dalam
+                   Jika  KDC  mengalami  kegagalan  atau  diserang,  seluruh  sistem
 
 
-                 jaringan.
+                   autentikasi  bisa  terpengaruh,  menyebabkan  gangguan  besar
 
 
+                   dalam jaringan.
 
 
 
-                 2) Kerumitan pengaturan
+                   2) Kerumitan pengaturan
 
-                 Mengkonfigurasi  dan  mengelola  Kerberos  merupakan  proses  yang
 
-                 kompleks, terutama dalam jaringan besar atau heterogen.
+                   Mengkonfigurasi dan mengelola Kerberos merupakan proses yang
 
 
+                   kompleks, terutama dalam jaringan besar atau heterogen.
 
 
 
-                 3) Kebutuhan sinkronisasi waktu
+                   3) Kebutuhan sinkronisasi waktu
 
+                   Kerberos mengandalkan sinkronisasi waktu yang ketat antara klien
 
-                 Kerberos  mengandalkan  sinkronisasi  waktu  yang  ketat  antara  klien
 
-                 dan          server.            Ketidaksesuaian                       waktu            yang            signifikan              dapat
+                   dan  server.  Ketidaksesuaian  waktu  yang  signifikan  dapat
 
 
-                 menyebabkan kegagalan autentikasi.
+                   menyebabkan kegagalan autentikasi.]]></page><page Index="60"><![CDATA[3. Mekanisme Kerja Kerberos
+         3  .   M  e  k  a  n  i s m     e   K  e  r j a    K e  r b  e  r o  s
 
 
-        3. Mekanisme Kerja Kerberos
-        3 .   M  e  k  a  n   i s m    e    K e  r j a    K e  r b  e  r o   s
 
+               Proses  kerja  Kerberos  melibatkan  beberapa  tahapan  utama
 
 
-            Proses  kerja  Kerberos  melibatkan  beberapa  tahapan  utama
+               yang  memastikan  bahwa  komunikasi  antara  klien  dan  server
 
 
-            yang  memastikan  memastikan  bahwa  komunikasi  antara  klien
+               layanan terjadi secara aman dan terenkripsi, mencegah akses
 
 
-            dan  server  layanan  terjadi  secara  aman  dan  terenkripsi,
 
+               tidak  sah  dan  serangan  replay.  Berikut  adalah  tahapan-
 
-            mencegah akses tidak sah dan serangan replay.
 
-            Berikut adalah tahapan-tahapan tersebut.
+               tahapan tersebut.
 
 
 
+              a. Initial Client Authentication Request
 
-            a. Initial Client Authentication Request
 
 
+                   1)  Proses  dimulai  ketika  pengguna  melakukan  login  ke  domain
 
-                 1)  Proses  dimulai  ketika  pengguna  melakukan  login  ke  domain
 
-                 dengan memasukkan kredensial mereka (nama pengguna dan kata
+                   dengan  memasukkan  kredensial  mereka  (nama  pengguna  dan
 
 
-                 sandi) ke klien Kerberos di perangkat mereka.
+                   kata sandi) ke klien Kerberos di perangkat mereka.
 
-                 2)  Klien  mengirim  permintaan  ke  authentication  server  (AS)  di  key
 
+                   2) Klien mengirim permintaan ke authentication server (AS) di key
 
-                 distribution center (KDC) untuk mendapatkan Ticket-Granting Ticket
 
-                 (TGT).
+                   distribution  center  (KDC)  untuk  mendapatkan  Ticket-Granting
 
 
+                   Ticket (TGT).
 
-            b. Verification of Client Credentials
 
 
+              b. Verification of Client Credentials
 
-                 1)  KDC  memverifikasi  kredensial  yang  dikirimkan  pengguna.  Jika
 
 
-                 valid, AS memeriksa ketersediaan TGS dan klien dalam database.
+                   1)  KDC  memverifikasi  kredensial  yang  dikirimkan  pengguna.  Jika
 
-                 2)  AS  mengeluarkan  TGT  yang  berisi  berbagai  informasi  seperti
 
+                   valid, AS memeriksa ketersediaan TGS dan klien dalam database.
 
-                 alamat  jaringan,  ID,  timestamp,  lifetime,  dan  session  key  (SK1).  TGT
 
-                 dienkripsi dengan kunci rahasia TGS.
+                   2)  AS  mengeluarkan  TGT  yang  berisi  berbagai  informasi  seperti
 
-                 3)  AS  juga  mengeluarkan  encrypted  session  key  yang  dienkripsi
 
+                   alamat jaringan, ID, timestamp, lifetime, dan session key (SK1). TGT
 
-                 dengan kunci rahasia pengguna.
 
+                   dienkripsi dengan kunci rahasia TGS.
 
 
-            c. Message Decryption
+                   3)  AS  juga  mengeluarkan  encrypted  session  key  yang  dienkripsi
 
 
+                   dengan kunci rahasia pengguna.
 
-                 Klien  menggunakan  client  secret  key  untuk  mendekripsi  TGT  dan
 
-                 session key (SK1) agar dapat membaca pesan yang diterima dari AS.]]></page><page Index="61"><![CDATA[d. Request for Access Using the TGT
+              c. Message Decryption
 
 
 
-                 Ketika  pengguna  ingin  mengakses  layanan  tertentu,  -------------
+                   Klien  menggunakan  client  secret  key  untuk  mendekripsi  TGT  dan
 
-                 klien  mengirimkan  permintaan  tiket  layanan  ke  --------------
 
+                   session key (SK1) agar pesan yang dikirim dari AS  dapat dibaca.
 
-                 Ticket-Granting  Service  (TGS)  dengan  menyertakan  ------------
 
-                 TGT dan authenticator.
 
+              d. Request for Access Using the TGT
 
-            e. Creation of Ticket for the Service Server
 
 
+                   Ketika  pengguna  ingin  mengakses  layanan  tertentu,  klien
 
-                 1) TGS menggunakan TGS secret key untuk mendekripsi TGT dari klien
 
-                 dan  mengekstrak  SK1.  TGS  juga  mendekripsi  authenticator  dan
+                   mengirimkan  permintaan  tiket  layanan  ke  Ticket-Granting  Service
 
 
-                 memverifikasi kesesuaiannya.
+                   (TGS) dengan menyertakan  TGT dan authenticator.
 
 
-                 2)  Jika  valid,  TGS  menghasilkan  shared  service  session  key  (SK2)
 
-                 untuk  server  dan  klien.  TGS  membuat  service  ticket  yang  berisi
+              e. Creation of Ticket for the Service Server
 
-                 informasi seperti alamat jaringan klien, ID, timestamp, dan SK2.
 
 
-                 3) Service ticket dienkripsi dengan server secret key dan dikirimkan
+                   1)  TGS  menggunakan  TGS  secret  key  untuk  mendekripsi  TGT  dari
 
-                 ke klien bersama dengan SK2 yang dienkripsi dengan SK1.
 
+                   klien dan mengekstrak SK1. TGS juga mendekripsi authenticator dan
 
 
-            f. Authentication Using the Service Ticket
+                   memverifikasi kesesuaiannya.
+
+
+                   2)  Jika  valid,  TGS  menghasilkan  shared  service  session  key  (SK2)
+
+
+                   untuk  server  dan  klien.  TGS  membuat  service  ticket  yang  berisi
+
+
+                   informasi seperti alamat jaringan klien, ID, timestamp, dan SK2.
+
+                   3) Service ticket dienkripsi dengan server secret key
+
+
+                   dan dikirimkan ke klien bersama dengan SK2 yang
+
+
+                   dienkripsi dengan SK1.]]></page><page Index="61"><![CDATA[f. Authentication Using the Service Ticket
 
 
 
                  1) Klien menggunakan service ticket untuk mengautentikası ke server
 
-
                  layanan  dengan  mendekripsi  pesan  menggunakan  SK1  dan
+
 
                  mengekstrak SK2.
 
 
                  2) Klien mengirimkan service ticket dan authenticator baru ke server
 
-                 layanan.
 
+                 layanan.
 
 
         4. Potensi Celah Keamanan
@@ -7450,83 +7623,81 @@
 
 
 
-            Meski  tergolong  aman,  popularitas  Kerberos  sebagai  protokol
-
-            autentikasi  yang  banyak  digunakan  membuatnya  menjadi
+             Meski  tergolong  aman,  popularitas  Kerberos  sebagai  protokol
 
 
-            target analisis dan eksploitasi oleh penyerang.
+             autentikasi  yang  banyak  digunakan  membuatnya  menjadi
 
 
-            Berikut  adalah  lima  potensi  metode  penyerangan  yang  umum
+             target analisis dan eksploitasi oleh penyerang.
 
 
-            dihadapi oleh Kerberos.
+             Berikut  adalah  lima  potensi  metode  penyerangan  yang  umum
 
 
-
-            a. Man-in-the-Middle (MitM)
-
-                 Jika  tiket  atau  session  key  tercegat  di  tengah  transmisi,  penyerang
-
-
-                 dapat menyamar sebagai klien atau server.
+             dihadapi oleh Kerberos.
 
 
 
+             a. Man-in-the-Middle (MitM)
 
 
-            b. Pass the ticket
-
-                 Penyerang  memalsukan  session  key  dan  menggunakan  kredensial
-
-                 palsu untuk mendapatkan akses.
+                  Jika  tiket  atau  session  key  tercegat  di  tengah  transmisi,  penyerang
 
 
-
-
-
-            C. Credential stuffing atau Brute force
-
-                 Menebak  kata  sandi  pengguna  secara  acak  dan  tanpa  henti,
-
-
-                 menargetkan layanan ticket-granting dan initial ticketing service.]]></page><page Index="62"><![CDATA[d. Encryption Downgrade
-
-               Penurunan  level  enkripsi  data  tiket  melalui  malware,  misalnya
-
-
-               skeleton  key,  yang  memungkinkan  menembus  Kerberos  jika
-
-               penyerang mendapatkan akses admin.
+                  dapat menyamar sebagai klien atau server.
 
 
 
-           e. DCShadow Attack
+             b. Pass the ticket
 
-                DCShadow  attack  memungkinkan  penyerang  menyisipkan  domain
-
-
-                controller  palsu  dalam  lingkungan  Active  Directory  -------------
-
-                dan  memanipulasi  data  autentikasi  Kerberos  secara  -------------
+                  Penyerang  memalsukan  session  key  dan  menggunakan  kredensial
 
 
-                diam-diam.  sehingga  mengganggu  validitas  proses  ------------
-
-                autentikasi.
+                  palsu untuk mendapatkan akses.
 
 
 
-              Penjelasan  mekanisme  kerja  kerberos  juga  dapat  dilihat  pada
-
-              video berikut
+             c. Credential stuffing atau Brute force
 
 
+                  Menebak  kata  sandi  pengguna  secara  acak  dan  tanpa  henti,
+
+
+                  menargetkan layanan ticket-granting dan initial ticketing service.
+
+
+             d. Encryption Downgrade
+
+
+                  Penurunan  level  enkripsi  data  tiket  melalui  malware,  misalnya
+
+
+                  skeleton  key,  yang  memungkinkan  menembus  Kerberos  jika
+
+
+                  penyerang mendapatkan akses admin.
 
 
 
+             e. DCShadow Attack
 
+                  DCShadow  attack  memungkinkan  penyerang  menyisipkan  domain
+
+
+                  controller               palsu            dalam              lingkungan                  Active             Directory               dan
+
+
+                  memanipulasi  data  autentikasi  Kerberos  secara  diam-diam.
+
+
+                  sehingga mengganggu validitas proses autentikasi.
+
+
+             Penjelasan  mekanisme  kerja  kerberos  juga  dapat  dilihat  pada
+
+
+             video berikut
 
 
 
@@ -7536,37 +7707,48 @@
 
 
 
-                                                        M  e  k a n  i s m  e    k e r j a   K e r b e r o s
+
+
+
+
                                                         Mekanisme kerja Kerberos
+                                                        M  e  k a n  i s m  e    k e r j a   K e r b e r o s
 
 
 
 
+                                                                                a
+                                                                              j
+                                                                            r
+                                                                                            n
+                                                                                        a
+                                                                                    k
+                                                                        e
+                                                                    Kerjakan
+                                                                    K
+                                                                                       i
+                                                               S
+                                                                                             a
+                                                                                                 n
+                                                                                         h
+                                                               Soal Latihan
+                                                                                     t
 
+                                                                      a
+                                                                          l
+                                                                  o
+                                                                                a
+                                                                              L]]></page><page Index="62"><![CDATA[LEMBAR KERJA
 
 
 
 
 
-                                                                           n
 
-                                                                  k
-                                                                       a
-                                                                                          a
-                                                                                     o
-                                                                                 S
-                                                                                              l
-                                                K
-                                                         r
-                                                     e
-                                                              a
-                                                            j
-                                                Kerjakan Soal
-                                                           Latihan
-                                                           L  a    t  i h   a    n]]></page><page Index="63"><![CDATA[LKPD
 
 
 
+        PESERTA DIDIK
 
 
 
@@ -7599,21 +7781,21 @@
 
 
 
+                                                                    BAB 2
 
-                                                                      BAB 2
 
 
 
 
 
+                            TEKNIK KEAMANAN SISTEM
 
-                              TEKNIK KEAMANAN SISTEM
 
 
 
 
+                       OPERASI LINUX DAN FIREWALL
 
-                         OPERASI LINUX DAN FIREWALL
 
 
 
@@ -7627,27 +7809,27 @@
 
 
 
-                                                                   BAB 3
 
 
 
 
 
 
-                        FIREWALL DALAM PERANGKAT
 
+                                                                    BAB 3
 
 
 
 
-                                                              JARINGAN
 
 
+                                                FIREWALL DALAM
 
 
 
 
 
+                                    PERANGKAT JARINGAN
 
 
 
@@ -7657,7 +7839,6 @@
 
 
 
-                                                                     BAB 4
 
 
 
@@ -7665,7 +7846,6 @@
 
 
 
-                                          SERVER AUTENTIKASI]]></page><page Index="64"><![CDATA[KUIS
 
 
 
@@ -7674,6 +7854,7 @@
 
 
 
+                                                                   BAB 4
 
 
 
@@ -7681,6 +7862,7 @@
 
 
 
+                                        SERVER AUTENTIKASI]]></page><page Index="63"><![CDATA[KUIS
 
 
 
@@ -7693,7 +7875,6 @@
 
 
 
-                                                                    BAB 1
 
 
 
@@ -7701,15 +7882,14 @@
 
 
 
-                          DASAR-DASAR KEAMANAN
 
 
 
 
-                                                            JARINGAN
 
 
 
+                                                                     BAB 1
 
 
 
@@ -7717,56 +7897,56 @@
 
 
 
+                                                    DASAR-DASAR
 
 
 
+                                     KEAMANAN JARINGAN
 
 
 
-                                                                      BAB 2
 
 
 
 
 
 
-                              TEKNIK KEAMANAN SISTEM
 
 
 
 
 
-                         OPERASI LINUX DAN FIREWALL
 
 
+                                                                    BAB 2
 
 
 
 
 
 
+                            TEKNIK KEAMANAN SISTEM
 
 
 
 
 
-                                                                   BAB 3
+                       OPERASI LINUX DAN FIREWALL
 
 
 
 
 
 
-                        FIREWALL DALAM PERANGKAT
 
 
 
 
 
-                                                              JARINGAN
 
 
 
+                                                                    BAB 3
 
 
 
@@ -7774,13 +7954,14 @@
 
 
 
+                                                FIREWALL DALAM
 
 
 
 
 
+                                    PERANGKAT JARINGAN
 
-                                                                     BAB 4
 
 
 
@@ -7788,7 +7969,6 @@
 
 
 
-                                          SERVER AUTENTIKASI]]></page><page Index="65"><![CDATA[KUESIONER
 
 
 
@@ -7799,12 +7979,14 @@
 
 
 
+                                                                   BAB 4
 
 
 
 
 
 
+                                        SERVER AUTENTIKASI]]></page><page Index="64"><![CDATA[KUESIONER
 
 
 
@@ -7849,7 +8031,6 @@
 
 
 
-                                                                                         PETUNJUK
 
 
 
@@ -7858,51 +8039,69 @@
 
 
 
-                                                             1.  Kuesioner ini dimaksudkan untuk
 
 
 
-                                                                memperoleh pendapat
 
 
-                                                                mengenai pembelajaran
+                                                                                     PETUNJUK
 
 
 
-                                                                keamanan jaringan dengan
 
 
 
-                                                                menggunakan e-book interaktif
 
 
-                                                                yang sudah dilaksanakan dan
 
 
 
-                                                                dijadikan sebagai dasar untuk
+                                                             1. Kuesioner  ini  dimaksudkan  untuk
 
 
 
-                                                                perbaikan pada pembelajaran
+                                                                memperoleh pendapat  mengenai
+
+
+
+                                                                pembelajaran  keamanan  jaringan
+
+
+
+                                                                dengan                     menggunakan                                   e-book
+
+
+
+                                                                interaktif yang sudah dilaksanakan
+
+
+
+                                                                dan dijadikan sebagai dasar untuk
+
+
+
+
+                                                                perbaikan                         pada                 pembelajaran
+
 
 
                                                                 selanjutnya.
 
 
 
-                                                           2.   Pengisian ini tidak ada
+                                                           2.   Pengisian                             ini               tidak                    ada
 
 
 
-                                                                hubungannya dengan penilaian
+                                                                hubungannya  dengan  penilaian
 
 
 
-                                                                diri anda. sehingga tidak perlu
+                                                                diri  anda.  Sehingga  tidak  perlu
 
 
-                                                                ragu untuk memberikan jawaban
+
+                                                                ragu  untuk  memberikan  jawaban
 
 
 
@@ -7910,21 +8109,24 @@
 
 
 
-                                                           3.   Pastikan kamu terkoneksi dengan
 
-
-                                                                internet, lalu jawablah setiap
-
-
-
-                                                                pertanyaan berikut pada salah
+                                                           3.   Pastikan  kamu  terkoneksi  dengan
 
 
 
-                                                                satu pilihan yang sesuai dengan
+                                                                internet,                   lalu             jawablah                       setiap
 
 
-                                                                pilihan jawaban anda.]]></page><page Index="66"><![CDATA[Pengembang
+
+                                                                pertanyaan  berikut  pada  salah
+
+
+
+                                                                satu  pilihan  yang  sesuai  dengan
+
+
+
+                                                                pilihan jawaban anda.]]></page><page Index="65"><![CDATA[Pengembang
 
 
 
@@ -8047,7 +8249,7 @@
 
 
 
-                                                              Agus Sugianto, S.Kom]]></page><page Index="67"><![CDATA[IDENTITAS
+                                                              Agus Sugianto, S.Kom]]></page><page Index="66"><![CDATA[IDENTITAS
 
 
 
@@ -8181,7 +8383,7 @@
 
 
 
-                                      deayupe@gmail.com]]></page><page Index="68"><![CDATA[DAFTAR
+                                      deayupe@gmail.com]]></page><page Index="67"><![CDATA[DAFTAR
 
 
 

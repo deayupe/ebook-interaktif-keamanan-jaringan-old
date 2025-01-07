@@ -152,127 +152,120 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>1. Key Distribution Center (KDC)
-        1 .   K e y    D  i s t r i b u   t i o n    C  e  n  t e  r   ( K  D  C   )
+    <pre style="white-space:pre-line"><code>b. Ticket-Granting Service (TGS)
 
 
-            Kerberos Key Distribution Center (KDC) merupakan komponen penting
 
+                   Setelah  pengguna  memiliki  TGT  dari  AS,  mereka  dapat  meminta
 
-            dalam  infrastruktur  Kerberos  yang  berperan  sebagai  layanan  untuk
+                   akses  ke  layanan  lain  di  jaringan.  Permintaan  ini  dikirim  ke  TGS
 
-            men-generate  serta  merilis  sertifikat  autentikasi  dan  sesi  koneksi.
 
+                   yang  memverifikasi  TGT  kemudian  mengeluarkan  tiket  layanan
 
-            Dalam  lingkungan  Windows  Server,  KDC  terintegrasi  dengan  layanan
 
-            keamanan  lain  yang  berjalan  di  domain  controller,  memanfaatkan
+                   (service ticket) untuk layanan yang diinginkan pengguna jika valid.
 
 
-            basis data Active Directory Domain Services (AD DS) domain sebagai
+                   Tiket  ini  digunakan  oleh  pengguna  untuk  mengakses  layanan
 
-            database akun keamanannya. KDC dalam Windows Server terdiri dari
 
+                   tanpa harus autentikasi ulang.
 
-            dua bagian utama, yaitu sebagai berikut.
 
 
+          2 .   K e  u  n   g  g  u  l a  n    d  a  n    K e  l e  m    a  h  a   n    K e  r b  e  r o  s
+          2. Keunggulan dan Kelemahan Kerberos
 
-            a. Authentication Server (AS)
 
+              a. Keunggulan Kerberos
 
 
-                 AS adalah bagian dari KDC yang menangani proses autentikasi awal
 
-                 pengguna.  Ketika  pengguna  pertama  kali  mencoba  masuk  ke
 
+                   1) Keamanan yang kuat
 
-                 jaringan,  mereka  mengirim  permintaan  ke  AS  untuk  mendapatkan
 
-                 tiket  autentikasi  awal.  AS  memverifikasi  kredensial  pengguna
+                   Kerberos  menggunakan  kriptografi  kunci  simetris  dan  protokol
 
 
-                 kemudian  mengeluarkan  tiket  yang  disebut  Ticket-Granting  Ticket
+                   yang  aman  untuk  memastikan  bahwa  kredensial  pengguna  dan
 
-                 (TGT) jika valid.
 
+                   komunikasi antara klien dan server terlindungi.
 
 
-            b. Ticket-Granting Service (TGS)
+                   2) Autentikasi terpusat
 
 
+                   Dengan  KDC,  Kerberos  menyediakan  autentikasi  terpusat  yang
 
-                 Setelah  pengguna  memiliki  TGT  dari  AS,  mereka  dapat  meminta
 
+                   memudahkan pengelolaan pengguna dan akses ke layanan.
 
-                 akses ke layanan lain di jaringan. Permintaan ini dikirim ke TGS yang
 
-                 memverifikasi  TGT  kemudian  mengeluarkan  tiket  layanan  (service
 
-                 ticket)  untuk  layanan  yang  diinginkan  pengguna  jika  valid.  Tiket  ini
+                   3) Mencegah serangan replay
 
 
-                 digunakan  oleh  pengguna  untuk  mengakses  layanan  tanpa  harus
+                   Tiket  dan  timestamp  dalam  protokol  Kerberos  membantu
 
-                 autentikasi ulang.
 
+                   mencegah  serangan  replay,  yaitu  ketika  penyerang  mencoba
 
 
-        2 .   K e  u  n  g   g  u  l a  n    d a   n    K e  l e  m    a  h  a  n     K e  r b  e  r o  s
-        2. Keunggulan dan Kelemahan Kerberos
+                   menggunakan kembali data autentikasi yang telah dicuri.
 
 
 
-            a. Keunggulan Kerberos
+                   4) Dukungan multi-platform
 
 
+                   Kerberos  adalah  protokol  yang  umum  digunakan  dan  didukung
 
-                 1) Keamanan yang kuat
 
-                 Kerberos menggunakan kriptografi kunci simetris dan protokol yang
+                   oleh  berbagai  sistem  operasi  dan  aplikasi,  termasuk  Windows,
 
+                   Linux, dan Unix.
 
-                 aman  untuk  memastikan  bahwa  kredensial  pengguna  dan
 
-                 komunikasi antara klien dan server terlindungi.
 
+              b. Kelemahan Kerberos
 
 
 
+                   1) Single point of failure
 
-                 2) Autentikasi terpusat
 
+                   Jika  KDC  mengalami  kegagalan  atau  diserang,  seluruh  sistem
 
-                 Dengan  KDC,  Kerberos  menyediakan  autentikasi  terpusat  yang
 
-                 memudahkan pengelolaan pengguna dan akses ke layanan.
+                   autentikasi  bisa  terpengaruh,  menyebabkan  gangguan  besar
 
 
+                   dalam jaringan.
 
 
 
-                 3) Mencegah serangan replay
+                   2) Kerumitan pengaturan
 
 
-                 Tiket dan timestamp dalam protokol Kerberos membantu mencegah
+                   Mengkonfigurasi dan mengelola Kerberos merupakan proses yang
 
-                 serangan  replay,  yaitu  ketika  penyerang  mencoba  menggunakan
 
-                 kembali data autentikasi yang telah dicuri.
+                   kompleks, terutama dalam jaringan besar atau heterogen.
 
 
 
+                   3) Kebutuhan sinkronisasi waktu
 
+                   Kerberos mengandalkan sinkronisasi waktu yang ketat antara klien
 
-                 4) Dukungan multi-platform
 
+                   dan  server.  Ketidaksesuaian  waktu  yang  signifikan  dapat
 
-                 Kerberos adalah protokol yang umum digunakan dan -------------
 
-                 didukung oleh berbagai sistem operasi dan aplikasi, ---------------
-
-
-                 termasuk Windows, Linux, dan Unix.</code></pre>
+                   menyebabkan kegagalan autentikasi.</code></pre>
      	</div>
     
      </div>

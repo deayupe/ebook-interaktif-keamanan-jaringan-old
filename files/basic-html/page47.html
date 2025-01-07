@@ -152,40 +152,29 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>d
-                     o
+    <pre style="white-space:pre-line"><code>1. Metode Autentikasi
+       1 .   M  e  t o  d  e    A  u  t e  n  t i k a   s i
 
-                           e
-                   t
-                                                        s
-            M
-                e
-                                                          i
-                                                i
-                                              t
-                                                    a
-                                                 k
-                                           n
-                                   u
-                               A
-                                        e
-                                      t
-
-       1
-       1. Metode Autentikasi
-         .
         a. Single-factor authentication (SFA)
+
+
+
              SFA          berarti           hanya             membutuhkan                        satu          jenis
+
              kredensial, biasanya username dan password. Model
+
              ini termasuk jenis autentikasi sederhana, akan tetapi
+
+
              sekarang                 dianggap                  kurang             aman              sehingga
+
+
              dibutuhkan  metode  tambahan  seperti  CAPTCHA
+
              untuk mengamankannya.
 
 
-
                                                       b. Multi-factor authentication (MFA)
-
 
 
                                                            MFA             adalah                teknik              autentikasi                  yang
@@ -195,91 +184,87 @@ function MM_swapImage() { //v3.0
 
                                                            kredensial                  untuk            memverifikasi                      identitas
 
-                                        OTP                pengguna.  Berikut  adalah  berbagai  metode
 
-
+                                                           pengguna.  Berikut  adalah  berbagai  metode
+                                        OTP
                                                            autentikasi                 yang           bisa          digunakan                  dalam
 
                                                            kombinasi.
+
 
         1)   Sesuatu yang kalian tahu, seperti nama pengguna dan kata sandi.
 
 
         2) Sesuatu yang kalian miliki, seperti token keamanan, kartu pintar, atau
 
-        kode  sekali  pakai  (OTP)  yang  dikirim  ke  perangkat  atau  alamat  surel
+        kode sekali pakai (OTP) yang dikirim ke perangkat atau e-mail kalian.
 
 
-        kalian.
-
-        3) Biometrik, seperti sidik jari, pengenalan wajah, atau verifikasi biometrik
-
-        lainnya.
-
-
-              Contoh implementasi MFA adalah Two-factor Authentication (2FA)
-
-        yang umumnya menggunakan kombinasi username dan password yang
-
-
-        diperkuat  dengan  menghubungkan  nomor  telepon  sebagai  penerima
-
-        OTP.
+        3) Biometrik, seperti sidik jari, pengenalan wajah, dan lain sebagainya.
 
 
 
-       2  .   C a  r a     K e  r j a    A u   t e n   t i k a  s  i
-       2. Cara Kerja Autentikasi
+         Contoh  implementasi  MFA  adalah  Two-factor  Authentication  (2FA)
+
+         yang  umumnya  menggunakan  kombinasi  username  dan  password
+
+         yang  diperkuat  dengan  menghubungkan  nomor  telepon  sebagai
+
+
+         penerima OTP.
+
+
+        2. Cara Kerja Autentikasi
+        2  .   C a  r a    K  e  r j a   A  u  t e  n  t i k  a  s  i
+
+         a. Single-factor authentication (SFA)
+
+
+               1) Pengguna memasukkan nama pengguna dan kata sandi kemudian
+
+
+               sistem akan mengenkripsi dan mengirimkannya ke server.
+
+
+               2) Server mendekripsi data tersebut dan membandingkannya dengan
+
+               informasi dalam database.
+
+               3)  Jika  informasi  sesuai,  autentikasi  dinyatakan  berhasil  dan
+
+
+               pengguna  tersebut  diberikan  otoritas  sah  untuk  mengakses  sistem
+
+               selanjutnya.
+
+
+         b. Multi-factor authentication (MFA)
 
 
 
-       a. Single-factor authentication (SFA)
+               1) Pengguna memasukkan nama pengguna dan kata sandi kemudian
+
+               sistem akan mengenkripsi dan mengirimkannya ke server.
+
+               2) Server mendekripsi data tersebut dan membandingkannya dengan
 
 
+               informasi dalam database.
 
-              1) Pengguna memasukkan nama pengguna dan kata sandi kemudian
-
-              sistem akan mengenkripsi dan mengirimkannya ke server.
-
-
-              2) Server mendekripsi data tersebut dan membandingkannya dengan
-
-              informasi dalam database.
+               3)  Jika  data  sesuai,  server  menciptakan  OTP  (One-time  Password),
 
 
-              3) Jika informasi sesuai, autentikasi dinyatakan berhasil dan pengguna
+               yang dikirimkan ke pengguna melalui nomor ponsel (terdaftar dalam
 
-              tersebut diberikan otoritas sah untuk mengakses sistem selanjutnya.
-
-
-
-       b. Multi-factor authentication (MFA)
+               server) yang dimiliki pengguna.
 
 
+               4) Pengguna menerima dan memasukkan OTP tersebut. Jika verifikasi
 
-             1) Pengguna memasukkan nama pengguna dan kata sandi kemudian
-
-
-             sistem akan mengenkripsi dan mengirimkannya ke server.
-
-             2) Server mendekripsi data tersebut dan membandingkannya dengan
+               oleh server dinyatakan benar, proses autentikasi selesai.
 
 
-             informasi dalam database.
-
-             3)  Jika  data  sesuai,  server  menciptakan  OTP  (One-time  Password),
-
-             yang dikirimkan ke pengguna melalui nomor ponsel
-
-
-             (terdaftar dalam server) yang dimiliki pengguna.
-
-             4) Pengguna menerima dan memasukkan OTP tersebut.
-
-
-             Jika verifikasi oleh server dinyatakan benar, proses
-
-             autentikasi selesai. Jika salah, proses akan diulang atau dibatalkan.</code></pre>
+               Jika salah, proses akan diulang atau dibatalkan.</code></pre>
      	</div>
     
      </div>

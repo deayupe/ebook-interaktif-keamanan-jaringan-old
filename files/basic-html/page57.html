@@ -152,151 +152,116 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>e. EAP-TLS (EAP-transport layer security)
+    <pre style="white-space:pre-line"><code>2) Tujuan
 
 
 
-                 EAP-TLS merupakan generasi lanjutan dari EAP yang menggunakan
-
-                 transport layer security (TLS) sebagai sarana autentikasi yang aman
-
-                 melalui  sertifikat  digital.  Metode  ini  dianggap  sebagai  salah  satu
+                      Proses ini memastikan bahwa hanya pengguna atau perangkat
 
 
-                 prosedur  autentikasi  nirkabel  paling  aman  karena  memanfaatkan
-
-                 enkripsi kuat dan pertukaran kunci yang aman.
-
-
-
-                                                                   s
-                                                                      i
-                                                             k
-                                                                a
-                                                                            O
-                                                                               t
-
-                                                                       ,
-                                 k
-                                    a
-
-                        a
-                           n
-                              g
-                                           A
-                                                      n
-                                                         t
-                                                           i
-                                              u
-                                                 t
-                                                   e
-                                                                                                                             n
-                                                                                                                                t
-                                                                                                                                  a
-                                                                                                                   A
-                                                                                                                       k
-                                                                                                                          u
-                                                                                                                                     n
-                                                                                                                                                (
-                                                                                                                                                  A
-                                                                                                                                                     A
-                                                                                                                                        s
-                                                                                                                                           i
-
-                                                                                        s
-                                                                                          a
-                                                                                              s
-                                                                                 o
-                                                                                    r
-                                                                                      i
-                                                                                                i
-                                                                                                         a
-                                                                                                             n
-
-                                                                                                  ,
-
-                                                                                                      d
-                   e
-               K
-           .
-                     r
-        4
-
-                                                                                                                                                         A
-        4.  Kerangka  Autentikasi,  Otorisasi,  dan  Akuntansi  (AAA
-            a
-               m
-                     e
-        F
-                                 k
-        Framework)
-                                    )
-                               r
-                        w
-          r
-                            o
-            Kerangka  AAA  adalah  model  penting  dalam  manajemen  keamanan
-            jaringan  yang  memberikan  mekanisme  yang  kuat  untuk  mengontrol
-            akses,  mengelola  hak  pengguna,  dan  memantau  aktivitas.  Dengan
-            implementasi  yang  tepat,  AAA  dapat  secara  signifikan  meningkatkan
-            keamanan dan kepatuhan dalam lingkungan jaringan.
-            Berikut penjelasan masing-masing komponen AAA.
-            a. Authentication (autentikasi)
-                 Autentikasi  adalah  proses  untuk  memverifikasi  identitas  pengguna
-                 atau  perangkat  yang  mencoba  mengakses  sistem  atau  jaringan.
-                 Proses ini biasanya melibatkan penggunaan kredensial seperti nama
-                 pengguna dan kata sandi, OTP, kartu akses, atau biometrik.
-                 1) Proses kerja
-                      a) Pengguna memasukkan kredensial autentikasi.
-                      b)  Sistem  membandingkan  kredensial  dengan  data  dalam
-                      database autentikasi.
-                      c) Jika kredensial valid, akses diberikan; jika tidak, akses ditolak.
-                 2) Tujuan
-                      Proses  ini  memastikan  bahwa  hanya  pengguna  atau  perangkat
                       yang sah yang dapat mengakses sistem.
-            b. Authorization (otorisasi)
 
 
-                 Otorisasi  adalah  proses  yang  menentukan  hak  dan  izin  pengguna
+
+          b. Authorization (otorisasi)
 
 
-                 setelah  identitas  mereka  diverifikasi.  Setelah  autentikasi  berhasil,
 
-                 sistem menentukan tingkat akses yang diberikan kepada pengguna
-
-
-                 berdasarkan kebijakan keamanan yang telah ditetapkan.
+               Otorisasi  adalah  proses  yang  menentukan  hak  dan  izin  pengguna
 
 
+               setelah  identitas  mereka  diverifikasi.  Setelah  autentikasi  berhasil,
+
+
+               sistem menentukan tingkat akses yang diberikan kepada pengguna
+
+
+               berdasarkan kebijakan keamanan yang telah ditetapkan.
 
 
 
                  1) Proses kerja
+
 
                       a)  Setelah  autentikasi,  sistem  memeriksa  hak  akses  sesuai
 
 
                       identitas pengguna.
 
-                      b)  Berdasarkan  peran  atau  atribut  lainnya,  sistem  memberikan
+
+                      b) Berdasarkan peran atau atribut lainnya, sistem memberikan
 
 
                       atau membatasi akses ke sumber daya tertentu.
 
 
 
+                 2) Tujuan
+
+
+
+                      a) Mengontrol hal-hal yang dapat dilakukan oleh pengguna di
+
+
+                      dalam sistem atau jaringan.
+
+
+                      b)  Mencegah  akses  yang  tidak  sah  atau  tidak  diinginkan  ke
+
+
+                      sumber daya yang sensitif.
+
+
+          c. Accounting (akuntansi)
+
+
+
+
+               Akuntansi  adalah  proses  pencatatan  aktivitas  pengguna  yang
+
+
+               berinteraksi dengan sistem atau jaringan. Data ini digunakan untuk
+
+               tujuan pelacakan, audit, dan pemantauan aktivitas pengguna.
+
+
+
+                 1) Proses kerja
+
+
+
+                      a)  Mencatat  informasi  seperti  waktu  login,  durasi  sesi,  sumber
+
+
+                      daya yang diakses, dan tindakan yang dilakukan.
+
+
+                      b)  Menyimpan  log  aktivitas  untuk  analisis  dan  audit  di  masa
+
+
+                      mendatang.
+
 
 
                  2) Tujuan
 
-                      a)  Mengontrol  hal-hal  yang  dapat  dilakukan  oleh  -------  ---
 
-                      pengguna di dalam sistem atau jaringan.
+                      a)  Memantau  penggunaan  sumber  daya  dan  aktivitas
 
 
-                      b)  Mencegah  akses  yang  tidak  sah  atau  tidak------------
+                      pengguna.
 
-                      diinginkan ke sumber daya yang sensitif.</code></pre>
+
+                      b)  Membantu  dalam  mendeteksi  dan  menganalisis  insiden
+
+
+                      keamanan.
+
+
+                      c)  Menghitung  penggunaan  sumber  daya  untuk  tujuan
+
+
+                      penagihan (billing).</code></pre>
      	</div>
     
      </div>

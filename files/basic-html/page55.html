@@ -152,116 +152,34 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>r
-                      a
-                                                         R
-                                                   e
-                                                                D
-                                                                   I
-                                                v
-             C
-
-                                    a
-                                                            A
-                                        S
-                                  j
-                a
-                    r
-                                r
-                             e
-        2. Cara Kerja Server RADIUS
-                                           e
-        2
-
-          .
-                                                                        S
-                                                                    U
-
-                                              r
-                          K
-            Proses  autentikasi  dan  otorisasi  dengan  server  RADIUS  berlangsung
-            melalui  beberapa  tahapan  yang  melibatkan  komunikasi  antara  klien
-            RADIUS dan server RADIUS. Proses ini bertujuan untuk menjamin bahwa
-            hanya pengguna sah yang terverifikasi dalam proses autentikasi yang
-            dapat  diotorisasi  untuk  mengakses  jaringan  atau  sumber  daya
-            tertentu.
-            Berikut adalah penjelasan langkah demi langkah proses tersebut.
-            a. Self-authentication RADIUS client
-                Perangkat  klien  akan  melakukan  autentikasi  dirinya  sendiri
-                menggunakan kredensial seperti nama pengguna dan kata sandi.
-            b. "Access-Request" message
+    <pre style="white-space:pre-line"><code>g. Rejects message
 
 
-                Klien  RADIUS  akan  mengirim  pesan  permintaan  akses  (Access-
-
-                Request)  ke  server  RADIUS  yang  berisi  nama  pengguna  dan  kata
-
-                sandi.
-
-
-            c. RADIUS server authentication
-
-                Server RADIUS menggunakan informasi dalam permintaan (request)
-
-
-                tersebut  untuk  mengautentikasi  pengguna  berdasarkan  informasi
-
-                database eksternal, seperti active directory.
-
-
-            d. Database matching
-
-                Jika  server  RADIUS  menemukan  kecocokan  kredensial  dalam
-
-
-                database,  sistem  akan  mengambil  informasi  tambahan  pengguna
-
-                dari database tersebut.
-
-
-            e. Access policy checks
-
-                Setelah  kredensial  terkonfirmasi  sesuai  dengan  data,  server  RADIUS
-
-                memeriksa  apakah  ada  kebijakan  akses  atau  profil  yang  cocok
-
-
-                dengan kredensial pengguna. Jika ditemukan dan mode multi-factor
-
-                authentication(MFA)  telah  diaktifkan,  pengguna  akan  diminta  untuk
-
-
-                menginputkan OTP yang dikirimkan oleh server.
-
-
-            f. Response validation
-
-                Server  akan  memvalidasi  OTP  yang  dikirimkan  oleh  klien.  Jika  valid,
-
-                server mengirim pesan "Access-Accept" kembali ke perangkat
-
-
-            g. Rejects message
 
                 Jika OTP yang dikirimkan klien tidak valid, server RADIUS mengirimkan
 
-
                 notifikasi  berupa  "Access-Reject"  dan  mengakhiri  transaksi,  yang
+
 
                 mengakibatkan pengguna ditolak mengakses sistem.
 
 
             h. "Access-Accept" message
 
+
+
                 Pesan  yang  berisi  informasi  penerimaan  akses  biasanya  memiliki
 
-                atribut ID Filter dan shared secret. Jika klien RADIUS tidak mengenali
 
+                atribut ID Filter dan shared secret. Jika klien RADIUS tidak mengenali
 
                 shared secret yang diterimanya, klien akan menolak pesan tersebut.
 
 
+
             i. ID Filter match
+
+
 
                 Jika  shared  secret  yang  diterima  oleh  klien  sesuai  dengan  sistem,
 
@@ -270,7 +188,90 @@ function MM_swapImage() { //v3.0
 
                 menghubungkan  pengguna  ke  grup  RADIUS  tertentu  ----  -----
 
-                menggunakan ID Filter ini.</code></pre>
+                menggunakan ID Filter ini.
+
+
+
+                                                   k
+                                                      a
+                                               t
+                                                 i
+                                                         s
+                                                              S
+                                                                 e
+                                                            i
+
+                    t
+                                            n
+                            e
+                                       t
+                                         e
+
+                         d
+                                    u
+                                A
+                      o
+                                                                    r
+             M
+                                                                                              S
+                                                                                           U
+                 e
+        3
+        3. Metode Autentikasi Server RADIUS
+
+          .
+                                                                                         I
+                                                                      v
+                                                                         e
+                                                                            r
+
+                                                                                      D
+                                                                                  A
+                                                                               R
+            Berikut  adalah  penjelasan  tentang  lima  metode  autentikasi  yang
+            didukung oleh server RADIUS.
+            a. PAP (Password Authentication Protocol)
+                 Metode PAP menggunakan konfigurasi PPP (point-to-point protocol)
+                 dan  basis  data  PAP  untuk  proses  autentikasi.  Cara  kerja  PAP  mirip
+                 dengan  program  login  UNIX,  yang  mengirimkan  nama  pengguna
+                 dan kata sandi dalam bentuk teks biasa ke server untuk autentikasi.
+                 Karena  kata  sandi  dikirim  dalam  teks  biasa,  PAP  dianggap  kurang
+                 aman  dan  biasanya  hanya  digunakan  pada  koneksi  yang  sudah
+                 terenkripsi atau pada koneksi dengan kebutuhan tingkat keamanan
+                 yang tidak terlalu tinggi.
+            b. CHAP (challenge-handshake authentication protocol)
+
+
+
+                 CHAP  terdiri  dari  dua  prinsip  kerja  yaitu  sistem  autentikasi  dan
+
+
+                 respons  hasil  autentikasi.  Autentikator  (server  CHAP)  mengirimkan
+
+                 pertanyaan                   unik         pada             pemanggil                  atau          caller           (pengguna
+
+
+                 autentikasi),  untuk  membuktikan  keabsahan  dirinya.  Pertanyaan
+
+                 tersebut  meliputi  ID  yang  di-generate  oleh  server  maupun  angka
+
+
+                 acak. Caller kemudian menggunakan ID, angka acak, dan kredensial
+
+                 keamanan CHAP untuk menghasilkan respons dan mengirimkannya
+
+
+                 kembali  ke  server  untuk  verifikasi.  CHAP  telah  memperbaiki
+
+                 keamanannya dengan memastikan bahwa kata sandi tidak pernah
+
+                 dikirimkan  melalui  jaringan  dalam  bentuk  teks  biasa  dan  dengan
+
+
+                 men-generate  tantangan  pertanyaan  yang  berubah-ubah  guna
+
+
+                 mencegah serangan replay.</code></pre>
      	</div>
     
      </div>
